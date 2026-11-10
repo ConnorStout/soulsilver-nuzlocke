@@ -22,7 +22,7 @@ A ROM hack of **Pokémon SoulSilver (Nintendo DS)** with the Nuzlocke challenge 
 - **Permadeath:** fainted Pokémon go to a locked **GRAVEYARD** PC box, and Revives don't work.
 - **Forced nicknames:** the naming screen opens after every catch.
 - **Wipeout = game over:** a **RUN OVER** screen with your final team, locked for good.
-- **No do-overs:** the game autosaves after every battle and the soft-reset combo is disabled.
+- **No do-overs:** the game autosaves after any battle that matters (a death, a catch, a new area's encounter, a big win), and the soft-reset combo is disabled.
 - **Victory screens** for beating the Elite Four and Red, saved so you can view them again later.
 - **Records (SELECT):** your current run, an encounter log of every area (○ caught / × failed) and your victories.
 - **Pokégear map Nuzlocke view:** point at any route to see what you met there and whether you caught it.
@@ -45,7 +45,7 @@ Full step-by-step instructions, including checksums and Delta setup, are in **[d
 | File | CRC32 |
 |---|---|
 | Original SoulSilver (USA) ROM | `D8EA6090` |
-| Patched Nuzlocke ROM | `E2770887` |
+| Patched Nuzlocke ROM | `2E2E3EA9` |
 
 ## Controls added by the hack
 

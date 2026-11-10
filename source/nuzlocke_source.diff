@@ -136,7 +136,7 @@ index 0fd1723..a294f03 100644
    ]
  }
 diff --git a/files/msgdata/msg/msg_0219.json b/files/msgdata/msg/msg_0219.json
-index 857a823..a68d2a0 100644
+index 857a823..c6b2660 100644
 --- a/files/msgdata/msg/msg_0219.json
 +++ b/files/msgdata/msg/msg_0219.json
 @@ -298,7 +298,30 @@
@@ -164,7 +164,7 @@ index 857a823..a68d2a0 100644
 +        "And if your whole party faints...\n",
 +        "your journey is over.\r",
 +        "There are no second chances. The\n",
-+        "game saves after every battle.\r",
++        "game saves whenever it matters.\r",
 +        "Press SELECT on your journey to\n",
 +        "see your records and victories.\r",
 +        "Treasure every Pokémon you meet!\r"
@@ -173,10 +173,10 @@ index 857a823..a68d2a0 100644
      {
 diff --git a/include/nuzlocke.h b/include/nuzlocke.h
 new file mode 100644
-index 0000000..7296afc
+index 0000000..e3734f4
 --- /dev/null
 +++ b/include/nuzlocke.h
-@@ -0,0 +1,136 @@
+@@ -0,0 +1,138 @@
 +#ifndef POKEHEARTGOLD_NUZLOCKE_H
 +#define POKEHEARTGOLD_NUZLOCKE_H
 +
@@ -199,7 +199,8 @@ index 0000000..7296afc
 +//    run ends on a final screen (badges, deaths, final team). The
 +//    save stays locked on that screen.
 +//  * No soft resetting: the L+R+START+SELECT reset is disabled and
-+//    the game autosaves after every battle.
++//    the game autosaves after any battle where a Pokemon died, one was
++//    caught, an area's first encounter happened or Lance/Red was beaten.
 +//  * Victory screens: beating the Champion (Lance) and Red for the first
 +//    time shows a victory screen. A snapshot of each win is saved and can
 +//    be viewed again any time by pressing SELECT in the overworld.
@@ -273,10 +274,11 @@ index 0000000..7296afc
 +u16 Nuzlocke_GetDeaths(SaveData *saveData);
 +
 +// Field-side hooks
-+BOOL Nuzlocke_OnRandomEncounterStart(FieldSystem *fieldSystem, BattleSetup *setup); // returns TRUE if the game should save now
++BOOL Nuzlocke_OnRandomEncounterStart(FieldSystem *fieldSystem, BattleSetup *setup); // returns TRUE if this is the area's first encounter
 +void Nuzlocke_OnBattleStart(FieldSystem *fieldSystem);
 +void Nuzlocke_OnBattleEnd(BattleSetup *setup, FieldSystem *fieldSystem);
 +BOOL Nuzlocke_ShouldAutosave(SaveData *saveData);
++BOOL Nuzlocke_TakeAutosaveRequest(SaveData *saveData); // TRUE once after a battle that changed something important
 +void Nuzlocke_OnPCClosed(SaveData *saveData);
 +
 +void Nuzlocke_FillRecord(SaveData *saveData, NuzlockeRecord *record);
@@ -736,7 +738,7 @@ index eebf685..34d71cb 100644
          deathSpawn = LocalFieldData_GetBlackoutSpawn(localFieldData);
          GetDeathWarpData(deathSpawn, &deathWarp);
 diff --git a/src/encounter.c b/src/encounter.c
-index ffa234b..25baf6e 100644
+index ffa234b..8a065a8 100644
 --- a/src/encounter.c
 +++ b/src/encounter.c
 @@ -20,6 +20,8 @@
@@ -783,33 +785,31 @@ index ffa234b..25baf6e 100644
          (*state)++;
          break;
      case 4:
-+        if (Nuzlocke_ShouldAutosave(fieldSystem->saveData)) {
-+            Field_SaveGameNormal(fieldSystem); // Nuzlocke: no resetting to undo a battle
++        if (Nuzlocke_TakeAutosaveRequest(fieldSystem->saveData)) {
++            Field_SaveGameNormal(fieldSystem); // Nuzlocke: lock in deaths, catches and new encounters
 +        }
          MapObjectManager_UnpauseAllMovement(fieldSystem->mapObjectManager);
          CallTask_FadeFromBlack(taskManager);
          (*state)++;
-@@ -354,6 +373,9 @@ static BOOL Task_WildEncounter(TaskManager *taskManager) {
+@@ -354,6 +373,7 @@ static BOOL Task_WildEncounter(TaskManager *taskManager) {
      case 0:
          MapObjectManager_PauseAllMovement(fieldSystem->mapObjectManager);
          GameStats_Inc(Save_GameStats_Get(fieldSystem->saveData), GAME_STAT_WILD_ENCOUNTERS);
-+        if (Nuzlocke_OnRandomEncounterStart(fieldSystem, encounter->setup) && Nuzlocke_ShouldAutosave(fieldSystem->saveData)) {
-+            Field_SaveGameNormal(fieldSystem); // Nuzlocke: lock in this area's first encounter
-+        }
++        Nuzlocke_OnRandomEncounterStart(fieldSystem, encounter->setup);
          sub_02055218(taskManager, encounter->effect, encounter->bgm);
          encounter->state++;
          break;
-@@ -387,6 +409,9 @@ static BOOL Task_WildEncounter(TaskManager *taskManager) {
+@@ -387,6 +407,9 @@ static BOOL Task_WildEncounter(TaskManager *taskManager) {
          break;
      case 4:
          ov02_BattleExit_HandleRoamerAction(fieldSystem, encounter->setup);
-+        if (Nuzlocke_ShouldAutosave(fieldSystem->saveData)) {
-+            Field_SaveGameNormal(fieldSystem); // Nuzlocke: no resetting to undo a battle
++        if (Nuzlocke_TakeAutosaveRequest(fieldSystem->saveData)) {
++            Field_SaveGameNormal(fieldSystem); // Nuzlocke: lock in deaths, catches and new encounters
 +        }
          CallTask_FadeFromBlack(taskManager);
          encounter->state++;
          break;
-@@ -408,6 +433,7 @@ static BOOL Task_SafariEncounter(TaskManager *taskManager) {
+@@ -408,6 +431,7 @@ static BOOL Task_SafariEncounter(TaskManager *taskManager) {
      case 0:
          MapObjectManager_PauseAllMovement(fieldSystem->mapObjectManager);
          GameStats_Inc(Save_GameStats_Get(fieldSystem->saveData), GAME_STAT_WILD_ENCOUNTERS);
@@ -817,7 +817,7 @@ index ffa234b..25baf6e 100644
          sub_02055218(taskManager, encounter->effect, encounter->bgm);
          (*state)++;
          break;
-@@ -498,6 +524,11 @@ static BOOL Task_BugContestEncounter(TaskManager *taskManager) {
+@@ -498,6 +522,11 @@ static BOOL Task_BugContestEncounter(TaskManager *taskManager) {
          break;
      case 3:
          sub_02050724(encounter->setup, fieldSystem);
@@ -930,10 +930,10 @@ index 30a2b52..a100407 100644
          }
 diff --git a/src/nuzlocke.c b/src/nuzlocke.c
 new file mode 100644
-index 0000000..f8923e8
+index 0000000..2429f7f
 --- /dev/null
 +++ b/src/nuzlocke.c
-@@ -0,0 +1,496 @@
+@@ -0,0 +1,509 @@
 +#include "nuzlocke.h"
 +
 +#include "global.h"
@@ -980,6 +980,7 @@ index 0000000..f8923e8
 +static s8 sPendingVictory = -1;
 +static u8 sTestMode; // RAM only: cleared on every power-on
 +static u8 sLogPending;
++static u8 sAutosaveRequested; // set when a battle changed something worth saving
 +static u8 sLogPendingMapsec;
 +
 +// ------------------------------------------------------------------
@@ -1105,6 +1106,12 @@ index 0000000..f8923e8
 +#endif
 +}
 +
++BOOL Nuzlocke_TakeAutosaveRequest(SaveData *saveData) {
++    BOOL ret = sAutosaveRequested && Nuzlocke_ShouldAutosave(saveData);
++    sAutosaveRequested = FALSE;
++    return ret;
++}
++
 +BOOL Nuzlocke_IsCatchBlocked(void) {
 +    return sCatchBlocked;
 +}
@@ -1186,7 +1193,11 @@ index 0000000..f8923e8
 +void Nuzlocke_OnBattleEnd(BattleSetup *setup, FieldSystem *fieldSystem) {
 +    sCatchBlocked = FALSE;
 +
++    if (setup->winFlag == BATTLE_OUTCOME_MON_CAUGHT) {
++        sAutosaveRequested = TRUE; // a catch
++    }
 +    if (sLogPending) {
++        sAutosaveRequested = TRUE; // the area's first encounter
 +        if (setup->winFlag == BATTLE_OUTCOME_MON_CAUGHT) {
 +            Nuzlocke_SetLog(fieldSystem->saveData, sLogPendingMapsec, SPECIES_NONE, NUZLOCKE_LOG_CAUGHT);
 +        }
@@ -1241,6 +1252,7 @@ index 0000000..f8923e8
 +                nz->deaths++;
 +            }
 +            Nuzlocke_BuryPartyMon(saveData, party, i);
++            sAutosaveRequested = TRUE; // a death
 +        }
 +    }
 +
@@ -1303,6 +1315,7 @@ index 0000000..f8923e8
 +    // Snapshot the winning team (after any deaths in the final battle).
 +    Nuzlocke_FillRecord(saveData, &nz->records[record]);
 +    sPendingVictory = record;
++    sAutosaveRequested = TRUE; // a victory
 +#endif
 +}
 +

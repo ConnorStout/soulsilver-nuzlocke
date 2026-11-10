@@ -15,7 +15,7 @@ Check your original ROM before patching:
 | File | Size | CRC32 | SHA-1 |
 |---|---|---|---|
 | Original SoulSilver (USA) | 134,217,728 bytes | `D8EA6090` | `f8dc38ea20c17541a43b58c5e6d18c1732c7e582` |
-| Patched result | 134,217,728 bytes | `E2770887` | |
+| Patched result | 134,217,728 bytes | `2E2E3EA9` | |
 
 If your original doesn't match, the patch won't apply. Common causes: a trimmed ROM (smaller than 128 MB), a different region, or an already-patched file.
 
@@ -45,7 +45,7 @@ Choose the original ROM and the `.xdelta` file, then click **Apply patch**.
 3. Open it and start a **New Game**. Professor Oak will explain the rules.
 
 Tips:
-- Delta keeps a resume snapshot when you leave a game. The hack autosaves after every battle, so your progress is in the real save either way.
+- Delta keeps a resume snapshot when you leave a game. The hack autosaves after every important battle, but save normally from the menu before you quit too.
 - After using **test mode**, quit the game and reopen it fresh. Don't resume a save state taken during test mode.
 
 ## 4. Other emulators

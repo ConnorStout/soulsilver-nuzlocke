@@ -27,11 +27,11 @@ Rule state, the "active" flag, deaths and victory records are in `NuzlockeSave`.
 
 | Game event | Hook | What happens |
 |---|---|---|
-| Random wild encounter starts | `Task_WildEncounter` / `Task_SafariEncounter` → `Nuzlocke_OnRandomEncounterStart` | Decide if the catch is allowed, mark the area used, log the encounter, autosave |
+| Random wild encounter starts | `Task_WildEncounter` / `Task_SafariEncounter` → `Nuzlocke_OnRandomEncounterStart` | Decide if the catch is allowed, mark the area used, log the encounter |
 | Ball thrown | `Task_GetPokemon` (CHECK_IF_TRAINER state) and `BattleControllerPlayer` | Deflect like a trainer battle, with custom messages; the ball isn't used up |
 | Catch succeeds | `STATE_GET_POKEMON_ASK_FOR_NICKNAME` | Skip the yes/no and go straight to the naming screen |
 | Battle ends | `sub_0205239C` (copies the party back) → `Nuzlocke_OnBattleEnd` | Update the log, bury fainted Pokémon, detect a wipeout, detect Lance/Red victories |
-| After a battle, overworld restored | `Task_StartEncounter` / `Task_WildEncounter` state 4 | Autosave (`Field_SaveGameNormal`) |
+| After a battle, overworld restored | `Task_StartEncounter` / `Task_WildEncounter` state 4 | Autosave (`Field_SaveGameNormal`), but only if `Nuzlocke_TakeAutosaveRequest()` says the battle had a death, a catch, an area's first encounter or a Lance/Red win |
 | Revive used in battle | `BattleSystem_RecoverStatus` | Revive has no effect while the rules are active |
 | PC closed | `sub_020429A0` (scrcmd) → `Nuzlocke_OnPCClosed` | Return withdrawn dead Pokémon to the graveyard |
 | Blackout | `Task_Blackout` | Jump to the run-over screen |

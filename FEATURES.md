@@ -9,7 +9,7 @@ The rules switch on the first time you have a **Poké Ball** in your Bag (the "s
 - An *area* is one location name on the Town Map: each route, town, cave and so on. All floors of a cave count as one area.
 - Covers grass, caves, surfing, fishing, Headbutt trees, Rock Smash and the Safari Zone.
 - After your encounter in an area, thrown balls are **dodged** ("The wild Pokémon dodged the Ball! You already had your encounter in this area!") and **the ball isn't used up**.
-- The area is saved as used the moment the battle starts, so resetting mid-battle can't reroll it.
+- The area is locked in by the autosave when that first battle ends.
 - Not counted (always catchable, and they don't use up the area): scripted one-time Pokémon (legendaries, Sudowoodo, Snorlax, the Red Gyarados) and roaming Pokémon (Raikou, Entei).
 - Gifts such as your starter and eggs are allowed.
 - The Bug-Catching Contest works as normal.
@@ -33,7 +33,9 @@ The rules switch on the first time you have a **Poké Ball** in your Bag (the "s
 
 ### No soft resets
 - The **L+R+START+SELECT** soft reset is disabled.
-- The game **autosaves after every battle** and at the first encounter in each new area. Expect a brief black pause after battles while it saves.
+- The game **autosaves after any battle that matters**: when a Pokémon died, you caught something, it was an area's first encounter, or you beat Lance or Red. Expect a brief pause after those battles while it saves.
+- Ordinary battles, like grinding or a trainer fight where nobody faints, don't trigger a save, so there's no delay. Resetting after them can't undo anything that matters.
+- Save from the menu as normal before you stop playing.
 - Emulator save states can't be blocked by the game, so not using them is on your honor.
 
 ### No outside trading

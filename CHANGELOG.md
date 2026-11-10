@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1 — 2026-11-10
+
+- **Faster play:** autosave only happens after battles that matter (a death, a catch, an area's first encounter, beating Lance or Red), instead of before and after every encounter. This removes the long pauses on Delta.
+- Professor Oak's rules speech updated to match ("the game saves whenever it matters").
+
 ## v1.0 — 2026-11-10
 
 First release.
