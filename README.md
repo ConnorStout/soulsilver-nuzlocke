@@ -14,17 +14,24 @@ A ROM hack of **Pokémon SoulSilver (Nintendo DS)** with the Nuzlocke challenge 
   <img src="screenshots/victory_red.png" width="32%" alt="Victory screen after beating Red">
   <img src="screenshots/run_over.png" width="32%" alt="Run over screen">
 </p>
+<p align="center">
+  <img src="screenshots/memorial.png" width="32%" alt="Memorial page with cause of death">
+  <img src="screenshots/saving_panel.png" width="32%" alt="Saving panel after a battle">
+  <img src="screenshots/area_popup_available.png" width="32%" alt="Area status popup">
+</p>
 
 ## Features at a glance
 
 - **Encounter rule:** only the first wild Pokémon in each area can be caught. Thrown balls are dodged after that, and the ball isn't used up.
 - **Shiny clause:** shinies can always be caught.
 - **Permadeath:** fainted Pokémon go to a locked **GRAVEYARD** PC box, and Revives don't work.
-- **Forced nicknames:** the naming screen opens after every catch.
+- **Memorial:** every death is recorded with what killed it and where ("Fell to Falkner's PIDGEOTTO", "Died to poison").
+- **Forced nicknames:** the naming screen opens after every catch and for every gift or hatched Egg, and blank names aren't accepted.
 - **Wipeout = game over:** a **RUN OVER** screen with your final team, locked for good.
-- **No do-overs:** the game autosaves after any battle that matters (a death, a catch, a new area's encounter, a big win), and the soft-reset combo is disabled.
+- **No do-overs:** the game autosaves after any battle that matters (a death, a catch, a new area's encounter, a big win), showing a panel of what happened while it saves, and the soft-reset combo is disabled.
+- **Area status popup:** entering a route shows whether its first encounter is still available.
 - **Victory screens** for beating the Elite Four and Red, saved so you can view them again later.
-- **Records (SELECT):** your current run, an encounter log of every area (○ caught / × failed) and your victories.
+- **Records (SELECT):** your current run, an encounter log of every area (○ caught / × failed, plus gifts, shinies and one-time encounters), the memorial and your victories.
 - **Pokégear map Nuzlocke view:** point at any route to see what you met there and whether you caught it.
 - **Professor Oak explains the rules** in his opening speech.
 - **Test mode:** a hidden shortcut to try the endgame screens without touching your save.
@@ -45,7 +52,7 @@ Full step-by-step instructions, including checksums and Delta setup, are in **[d
 | File | CRC32 |
 |---|---|
 | Original SoulSilver (USA) ROM | `D8EA6090` |
-| Patched Nuzlocke ROM | `2E2E3EA9` |
+| Patched Nuzlocke ROM | `AF729F66` |
 
 ## Controls added by the hack
 

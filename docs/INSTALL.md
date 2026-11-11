@@ -15,7 +15,7 @@ Check your original ROM before patching:
 | File | Size | CRC32 | SHA-1 |
 |---|---|---|---|
 | Original SoulSilver (USA) | 134,217,728 bytes | `D8EA6090` | `f8dc38ea20c17541a43b58c5e6d18c1732c7e582` |
-| Patched result | 134,217,728 bytes | `2E2E3EA9` | |
+| Patched result | 134,217,728 bytes | `AF729F66` | `c66cc13e2bdf548916409b701217fd383c6edd7f` |
 
 If your original doesn't match, the patch won't apply. Common causes: a trimmed ROM (smaller than 128 MB), a different region, or an already-patched file.
 

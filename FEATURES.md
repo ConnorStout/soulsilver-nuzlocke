@@ -10,12 +10,13 @@ The rules switch on the first time you have a **Poké Ball** in your Bag (the "s
 - Covers grass, caves, surfing, fishing, Headbutt trees, Rock Smash and the Safari Zone.
 - After your encounter in an area, thrown balls are **dodged** ("The wild Pokémon dodged the Ball! You already had your encounter in this area!") and **the ball isn't used up**.
 - The area is locked in by the autosave when that first battle ends.
-- Not counted (always catchable, and they don't use up the area): scripted one-time Pokémon (legendaries, Sudowoodo, Snorlax, the Red Gyarados) and roaming Pokémon (Raikou, Entei).
-- Gifts such as your starter and eggs are allowed.
+- Not counted (always catchable, and they don't use up the area): scripted one-time Pokémon (legendaries, Sudowoodo, Snorlax, the Red Gyarados) and roaming Pokémon (Raikou, Entei). They still go in the encounter log as **bonus entries** (gold): "One-time ○" when caught, "One-time ×" when knocked out.
+- Gifts such as your starter and eggs are allowed, and are logged as bonus entries too ("Gift ○", "Egg ○").
+- **Area status popup:** when you enter an area that has wild Pokémon, a small panel appears next to the place-name sign: **First encounter available!** (green), or **Encounter used** with the Pokémon you met and ○ / ×.
 - The Bug-Catching Contest works as normal.
 
 ### Shiny clause
-- Shiny Pokémon can **always** be caught, and catching one never uses up the area.
+- Shiny Pokémon can **always** be caught, and catching one never uses up the area. Shiny catches are logged as bonus entries ("Shiny ○").
 
 ### Permadeath
 - A Pokémon that's at 0 HP when **any** battle ends is dead.
@@ -23,9 +24,13 @@ The rules switch on the first time you have a **Poké Ball** in your Bag (the "s
 - Dead Pokémon are marked with an invisible flag. You can view them in the PC, but withdrawing one does nothing: it goes straight back when you close the PC.
 - **Revive, Max Revive and Revival Herb don't work** in battle.
 - The **Fallen** counter on your records tracks every death.
+- **Memorial:** every death is recorded with the Pokémon's icon, nickname, species, level, where it died and **what killed it**, for example *Fell to Falkner's PIDGEOTTO*, *Fell to a wild GEODUDE*, *Died to poison*, *Buried by the sandstorm*, *Fell to recoil from DOUBLE-EDGE*, *Fainted using EXPLOSION*, *Hurt itself in confusion*, *Taken by GENGAR's Destiny Bond*. Up to 45 deaths are kept.
+- **Poison outside battle can't kill.** In this generation a poisoned Pokémon walking around survives at 1 HP and the poison wears off, so the rule never triggers outside battle. Poison damage *in* battle can kill, and is recorded as "Died to poison".
 
 ### Nickname rule
-- The nickname screen opens **automatically after every catch**, without asking. Gifts like the starter still get the game's normal "nickname?" question.
+- The nickname screen opens **automatically after every catch**, without asking.
+- **Received Pokémon must be named too:** the starter, gifts (Eevee, Dratini, Tyrogue, Game Corner prizes and so on) and hatched Eggs. If you say "No" to the game's "nickname?" question, or the event never asks, the naming screen opens as soon as you're back in control.
+- **Blank names aren't accepted:** pressing OK with an empty name just buzzes.
 
 ### Wipeout = game over
 - If every Pokémon in your party faints, the run ends on a **NUZLOCKE RUN OVER** screen showing your name, badges, fallen count, play time, number caught and your final team with icons.
@@ -33,7 +38,8 @@ The rules switch on the first time you have a **Poké Ball** in your Bag (the "s
 
 ### No soft resets
 - The **L+R+START+SELECT** soft reset is disabled.
-- The game **autosaves after any battle that matters**: when a Pokémon died, you caught something, it was an area's first encounter, or you beat Lance or Red. Expect a brief pause after those battles while it saves.
+- The game **autosaves after any battle that matters**: when a Pokémon died, you caught something, it was an area's first encounter, or you beat Lance or Red.
+- While it saves, a **saving panel** shows what just happened: *ABBY (PIDGEY) Lv.4 – Joined your party!*, *Wild SENTRET Lv.3 – Got away. Encounter used.*, or a fallen Pokémon with its cause of death. The banner turns from **SAVING... DON'T TURN OFF** to **GAME SAVED**; it closes by itself (or press A).
 - Ordinary battles, like grinding or a trainer fight where nobody faints, don't trigger a save, so there's no delay. Resetting after them can't undo anything that matters.
 - Save from the menu as normal before you stop playing.
 - Emulator save states can't be blocked by the game, so not using them is on your honor.
@@ -50,7 +56,8 @@ The rules switch on the first time you have a **Poké Ball** in your Bag (the "s
 | Page | Shows |
 |---|---|
 | **NUZLOCKE IN PROGRESS** | Name, badges, fallen, play time, number caught, current team with icons and levels |
-| **ENCOUNTER LOG** (one or more pages) | Each area's first encounter: icon, species, **○ caught** (green) or **× failed** (red), route name, plus caught/failed/fallen totals |
+| **ENCOUNTER LOG** (one or more pages) | Each area's first encounter: icon, species, **○ caught** (green) or **× failed** (red), route name, plus caught/failed/fallen totals. Bonus entries (gifts, shinies, one-time encounters, Eggs) are shown in gold |
+| **IN MEMORIAM** (one or more pages) | Every fallen Pokémon, 4 per page: icon, nickname, species, level, what killed it and where |
 | **ELITE FOUR CONQUERED!** | Snapshot of your stats and team when you first beat Champion Lance |
 | **RED DEFEATED!** | Snapshot of your stats and team when you first beat Red |
 

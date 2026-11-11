@@ -21,10 +21,10 @@ index 69f1f6d..8fbbc02 100644
    ]
  }
 diff --git a/files/msgdata/msg/msg_0203.json b/files/msgdata/msg/msg_0203.json
-index 0fd1723..a294f03 100644
+index 0fd1723..6159b78 100644
 --- a/files/msgdata/msg/msg_0203.json
 +++ b/files/msgdata/msg/msg_0203.json
-@@ -30,6 +30,110 @@
+@@ -30,6 +30,310 @@
          "and fainted Pokémon from further\n",
          "harm..."
        ]
@@ -132,11 +132,211 @@ index 0fd1723..a294f03 100644
 +    {
 +      "id": "msg_0203_00030",
 +      "en_US": "SELECT: normal view"
++    },
++    {
++      "id": "msg_0203_00031",
++      "en_US": "IN MEMORIAM"
++    },
++    {
++      "id": "msg_0203_00032",
++      "en_US": "Fell to {STRVAR_1 1, 0, 0}’s {STRVAR_1 0, 1, 0}"
++    },
++    {
++      "id": "msg_0203_00033",
++      "en_US": "Fell to a wild {STRVAR_1 0, 1, 0}"
++    },
++    {
++      "id": "msg_0203_00034",
++      "en_US": "Fainted using {STRVAR_1 6, 2, 0}"
++    },
++    {
++      "id": "msg_0203_00035",
++      "en_US": "Hit by its partner’s {STRVAR_1 6, 2, 0}"
++    },
++    {
++      "id": "msg_0203_00036",
++      "en_US": "Died to poison"
++    },
++    {
++      "id": "msg_0203_00037",
++      "en_US": "Died to its burn"
++    },
++    {
++      "id": "msg_0203_00038",
++      "en_US": "Buried by the sandstorm"
++    },
++    {
++      "id": "msg_0203_00039",
++      "en_US": "Fell in the hail"
++    },
++    {
++      "id": "msg_0203_00040",
++      "en_US": "Fell to its own ability"
++    },
++    {
++      "id": "msg_0203_00041",
++      "en_US": "Fell to recoil from {STRVAR_1 6, 2, 0}"
++    },
++    {
++      "id": "msg_0203_00042",
++      "en_US": "Crashed using {STRVAR_1 6, 2, 0}"
++    },
++    {
++      "id": "msg_0203_00043",
++      "en_US": "Hurt itself in confusion"
++    },
++    {
++      "id": "msg_0203_00044",
++      "en_US": "Hurt itself disobeying"
++    },
++    {
++      "id": "msg_0203_00045",
++      "en_US": "Fell to a curse"
++    },
++    {
++      "id": "msg_0203_00046",
++      "en_US": "Fell to a nightmare"
++    },
++    {
++      "id": "msg_0203_00047",
++      "en_US": "Crushed by a binding move"
++    },
++    {
++      "id": "msg_0203_00048",
++      "en_US": "Drained by Leech Seed"
++    },
++    {
++      "id": "msg_0203_00049",
++      "en_US": "Fell to Perish Song"
++    },
++    {
++      "id": "msg_0203_00050",
++      "en_US": "Hurt by spikes or rocks"
++    },
++    {
++      "id": "msg_0203_00051",
++      "en_US": "Fell to {STRVAR_1 0, 1, 0}’s Rough Skin"
++    },
++    {
++      "id": "msg_0203_00052",
++      "en_US": "Fell to {STRVAR_1 0, 1, 0}’s Aftermath"
++    },
++    {
++      "id": "msg_0203_00053",
++      "en_US": "Fell to Bad Dreams"
++    },
++    {
++      "id": "msg_0203_00054",
++      "en_US": "Fell to its held item"
++    },
++    {
++      "id": "msg_0203_00055",
++      "en_US": "Fell to {STRVAR_1 0, 1, 0}’s berry"
++    },
++    {
++      "id": "msg_0203_00056",
++      "en_US": "Taken by {STRVAR_1 0, 1, 0}’s Destiny Bond"
++    },
++    {
++      "id": "msg_0203_00057",
++      "en_US": "Fell to a delayed attack"
++    },
++    {
++      "id": "msg_0203_00058",
++      "en_US": "Fell in battle"
++    },
++    {
++      "id": "msg_0203_00059",
++      "en_US": "SAVING... DON’T TURN OFF"
++    },
++    {
++      "id": "msg_0203_00060",
++      "en_US": "GAME SAVED"
++    },
++    {
++      "id": "msg_0203_00061",
++      "en_US": "Joined your party!"
++    },
++    {
++      "id": "msg_0203_00062",
++      "en_US": "Sent to the PC."
++    },
++    {
++      "id": "msg_0203_00063",
++      "en_US": "Knocked out. Encounter used."
++    },
++    {
++      "id": "msg_0203_00064",
++      "en_US": "Got away. Encounter used."
++    },
++    {
++      "id": "msg_0203_00065",
++      "en_US": "Wild {STRVAR_1 0, 0, 0}  Lv.{STRVAR_1 52, 1, 0}"
++    },
++    {
++      "id": "msg_0203_00066",
++      "en_US": "Victory saved to your records."
++    },
++    {
++      "id": "msg_0203_00067",
++      "en_US": "Your progress is being saved."
++    },
++    {
++      "id": "msg_0203_00068",
++      "en_US": "First encounter"
++    },
++    {
++      "id": "msg_0203_00069",
++      "en_US": "Encounter used: {STRVAR_1 0, 0, 0} ○"
++    },
++    {
++      "id": "msg_0203_00070",
++      "en_US": "Encounter used: {STRVAR_1 0, 0, 0} ×"
++    },
++    {
++      "id": "msg_0203_00071",
++      "en_US": "Gift ○"
++    },
++    {
++      "id": "msg_0203_00072",
++      "en_US": "Shiny ○"
++    },
++    {
++      "id": "msg_0203_00073",
++      "en_US": "One-time ○"
++    },
++    {
++      "id": "msg_0203_00074",
++      "en_US": "One-time ×"
++    },
++    {
++      "id": "msg_0203_00075",
++      "en_US": "Egg ○"
++    },
++    {
++      "id": "msg_0203_00076",
++      "en_US": "{STRVAR_1 0, 0, 0}"
++    },
++    {
++      "id": "msg_0203_00077",
++      "en_US": "Encounter used"
++    },
++    {
++      "id": "msg_0203_00078",
++      "en_US": "available!"
++    },
++    {
++      "id": "msg_0203_00079",
++      "en_US": "You fled. Encounter used."
++    },
++    {
++      "id": "msg_0203_00080",
++      "en_US": "{STRVAR_1 1, 0, 0}  Lv.{STRVAR_1 52, 2, 0}"
      }
    ]
  }
 diff --git a/files/msgdata/msg/msg_0219.json b/files/msgdata/msg/msg_0219.json
-index 857a823..c6b2660 100644
+index 857a823..d060363 100644
 --- a/files/msgdata/msg/msg_0219.json
 +++ b/files/msgdata/msg/msg_0219.json
 @@ -298,7 +298,30 @@
@@ -156,7 +356,7 @@ index 857a823..c6b2660 100644
 +        "Shiny Pokémon are the exception.\n",
 +        "You may always catch those!\r",
 +        "Rule two: every Pokémon you catch\n",
-+        "must be given a nickname.\r",
++        "or receive must get a nickname.\r",
 +        "Rule three: a Pokémon that faints\n",
 +        "is gone forever.\r",
 +        "It will rest in the GRAVEYARD box\n",
@@ -166,17 +366,32 @@ index 857a823..c6b2660 100644
 +        "There are no second chances. The\n",
 +        "game saves whenever it matters.\r",
 +        "Press SELECT on your journey to\n",
-+        "see your records and victories.\r",
++        "see your records and memorial.\r",
 +        "Treasure every Pokémon you meet!\r"
        ]
      },
      {
+diff --git a/include/field/draw_map_name.h b/include/field/draw_map_name.h
+index e63bc45..89d886d 100644
+--- a/include/field/draw_map_name.h
++++ b/include/field/draw_map_name.h
+@@ -20,7 +20,9 @@ typedef struct FieldDrawMapNameInfo {
+     void *charData;
+     MsgData *mapsecMsgData;
+     String *mapNameString;
+-} FieldDrawMapNameInfo; // size: 0x44
++    s8 nuzlockeStatus; // Nuzlocke: encounter status of the area (-1 = none)
++    u16 nuzlockeSpecies;
++} FieldDrawMapNameInfo;
+ 
+ FieldDrawMapNameInfo *FieldDrawMapNameInfo_Create(BgConfig *bgConfig);
+ void FieldDrawMapNameInfo_Destroy(FieldDrawMapNameInfo *info);
 diff --git a/include/nuzlocke.h b/include/nuzlocke.h
 new file mode 100644
-index 0000000..e3734f4
+index 0000000..12347e8
 --- /dev/null
 +++ b/include/nuzlocke.h
-@@ -0,0 +1,138 @@
+@@ -0,0 +1,235 @@
 +#ifndef POKEHEARTGOLD_NUZLOCKE_H
 +#define POKEHEARTGOLD_NUZLOCKE_H
 +
@@ -214,7 +429,9 @@ index 0000000..e3734f4
 +
 +#include "battle/battle_setup.h"
 +#include "field_system.h"
++#include "pokemon_types_def.h"
 +#include "save.h"
++#include "task.h"
 +
 +// Toggle individual rules here. Set to 0 to turn a rule off.
 +#define NUZLOCKE_ENCOUNTER_RULE  1
@@ -296,7 +513,15 @@ index 0000000..e3734f4
 +    NUZLOCKE_LOG_EMPTY,
 +    NUZLOCKE_LOG_FAILED,
 +    NUZLOCKE_LOG_CAUGHT,
++    // Bonus entries (don't use up an area)
++    NUZLOCKE_LOG_SHINY,         // shiny clause catch
++    NUZLOCKE_LOG_GIFT,          // received from someone
++    NUZLOCKE_LOG_STATIC,        // one-time encounter, caught
++    NUZLOCKE_LOG_STATIC_FAILED, // one-time encounter, knocked out
++    NUZLOCKE_LOG_EGG,           // hatched from an Egg
 +};
++#define NUZLOCKE_LOG_IS_BONUS(status) ((status) >= NUZLOCKE_LOG_SHINY)
++#define NUZLOCKE_LOG_IS_SUCCESS(status) ((status) != NUZLOCKE_LOG_FAILED && (status) != NUZLOCKE_LOG_STATIC_FAILED)
 +typedef struct NuzlockeLogEntry {
 +    u8 mapsec;
 +    u8 status;
@@ -305,6 +530,93 @@ index 0000000..e3734f4
 +int Nuzlocke_GetLogCount(SaveData *saveData);
 +const NuzlockeLogEntry *Nuzlocke_GetLogEntry(SaveData *saveData, int index);
 +const NuzlockeLogEntry *Nuzlocke_FindLogEntry(SaveData *saveData, u32 mapsec);
++
++// ------------------------------------------------------------------
++// Memorial: how and where each Pokemon died.
++// ------------------------------------------------------------------
++enum {
++    NUZLOCKE_CAUSE_UNKNOWN,
++    NUZLOCKE_CAUSE_MOVE,         // a foe's attack (foeSpecies/trainerId set)
++    NUZLOCKE_CAUSE_SELF_MOVE,    // Explosion, Selfdestruct, Memento...
++    NUZLOCKE_CAUSE_ALLY_MOVE,    // hit by its partner in a Double Battle
++    NUZLOCKE_CAUSE_POISON,
++    NUZLOCKE_CAUSE_BURN,
++    NUZLOCKE_CAUSE_WEATHER,      // refined into the three below
++    NUZLOCKE_CAUSE_SANDSTORM,
++    NUZLOCKE_CAUSE_HAIL,
++    NUZLOCKE_CAUSE_OWN_ABILITY,  // Dry Skin / Solar Power
++    NUZLOCKE_CAUSE_RECOIL,
++    NUZLOCKE_CAUSE_CRASH,        // Jump Kick / Hi Jump Kick miss
++    NUZLOCKE_CAUSE_CONFUSION,
++    NUZLOCKE_CAUSE_DISOBEY,
++    NUZLOCKE_CAUSE_CURSE,
++    NUZLOCKE_CAUSE_NIGHTMARE,
++    NUZLOCKE_CAUSE_BIND,
++    NUZLOCKE_CAUSE_LEECH_SEED,
++    NUZLOCKE_CAUSE_PERISH_SONG,
++    NUZLOCKE_CAUSE_HAZARDS,
++    NUZLOCKE_CAUSE_ROUGH_SKIN,
++    NUZLOCKE_CAUSE_AFTERMATH,
++    NUZLOCKE_CAUSE_BAD_DREAMS,
++    NUZLOCKE_CAUSE_ITEM,         // its own Life Orb / Sticky Barb / Black Sludge
++    NUZLOCKE_CAUSE_FOE_ITEM,     // a foe's Jaboca / Rowap Berry
++    NUZLOCKE_CAUSE_DESTINY_BOND,
++    NUZLOCKE_CAUSE_FUTURE_SIGHT,
++    NUZLOCKE_CAUSE_MAX,
++};
++
++#define NUZLOCKE_DEATH_NAME_LEN 10
++
++typedef struct NuzlockeDeath {
++    u16 species;
++    u16 foeSpecies;
++    u16 trainerId; // 0 = wild
++    u16 move;
++    u16 nickname[NUZLOCKE_DEATH_NAME_LEN]; // not terminated when 10 long
++    u8 mapsec;
++    u8 level;
++    u8 cause;
++    u8 form;
++} NuzlockeDeath; // 32 bytes
++
++#define NUZLOCKE_DEATHS_PER_AREA 15
++#define NUZLOCKE_DEATHS_MAX      (NUZLOCKE_DEATHS_PER_AREA * 3)
++
++int Nuzlocke_GetDeathRecordCount(SaveData *saveData);
++const NuzlockeDeath *Nuzlocke_GetDeathRecord(SaveData *saveData, int index);
++void Nuzlocke_DeathRecordGetName(const NuzlockeDeath *death, u16 *dest); // dest: 11 u16s
++
++// Events of the last battle, shown on the saving panel.
++enum {
++    NUZLOCKE_EVENT_CAUGHT,  // info: the new Pokemon; detail: TRUE if it went to the PC
++    NUZLOCKE_EVENT_FAILED,  // info.species: the wild Pokemon; detail: battle outcome
++    NUZLOCKE_EVENT_DEATH,   // info: the death record
++    NUZLOCKE_EVENT_VICTORY, // detail: NUZLOCKE_RECORD_*
++};
++typedef struct NuzlockeEvent {
++    u8 kind;
++    u8 detail;
++    NuzlockeDeath info;
++} NuzlockeEvent;
++#define NUZLOCKE_MAX_EVENTS 4
++int Nuzlocke_GetEventCount(void);
++const NuzlockeEvent *Nuzlocke_GetEvent(int index);
++// After a battle, instead of CallTask_RestoreOverworld: shows the victory
++// screen and the saving panel when needed, then restores the overworld.
++void Nuzlocke_RestoreOverworldAfterBattle(TaskManager *taskManager); // nuzlocke_screen.c
++void Nuzlocke_OnMonCaught(Pokemon *mon, BOOL sentToPC); // battle: the catch, after naming
++
++// Gifts: received Pokemon must be given a nickname.
++#define NUZLOCKE_NAME_MARKER MON_DATA_UNUSED_RIBBON_143
++void Nuzlocke_OnGiftMon(SaveData *saveData, Pokemon *mon, u32 mapsec, u8 logKind);
++BOOL Nuzlocke_TryStartGiftNaming(FieldSystem *fieldSystem);
++
++// Area status popup when entering a new area
++int Nuzlocke_GetAreaStatus(SaveData *saveData, u32 mapsec, u16 *species); // NUZLOCKE_LOG_* or -1 if no popup
++
++// Battle-side (nuzlocke_battle.c)
++void Nuzlocke_BattleReset(void);
++BOOL Nuzlocke_GetFaintCause(u32 personality, u8 *cause, u16 *foeSpecies, u16 *trainerId, u16 *move);
 +
 +// Test mode (RAM only; never saved)
 +BOOL Nuzlocke_IsTestMode(void);
@@ -315,6 +627,22 @@ index 0000000..e3734f4
 +BOOL Nuzlocke_RulesActiveInBattle(void);
 +
 +#endif // POKEHEARTGOLD_NUZLOCKE_H
+diff --git a/include/nuzlocke_battle.h b/include/nuzlocke_battle.h
+new file mode 100644
+index 0000000..8c85226
+--- /dev/null
++++ b/include/nuzlocke_battle.h
+@@ -0,0 +1,10 @@
++#ifndef POKEHEARTGOLD_NUZLOCKE_BATTLE_H
++#define POKEHEARTGOLD_NUZLOCKE_BATTLE_H
++
++#include "battle/battle.h"
++
++// Battle-side death cause tracking (nuzlocke_battle.c)
++void Nuzlocke_BattleScriptLoaded(int depth, int narcId, int fileId, BOOL isCall);
++void Nuzlocke_OnBattlerHPChanged(BattleSystem *battleSystem, BattleContext *ctx, int battlerId, int oldHp);
++
++#endif // POKEHEARTGOLD_NUZLOCKE_BATTLE_H
 diff --git a/include/nuzlocke_pgmap.h b/include/nuzlocke_pgmap.h
 new file mode 100644
 index 0000000..3cebf07
@@ -333,19 +661,20 @@ index 0000000..3cebf07
 +
 +#endif
 diff --git a/main.lsf.in b/main.lsf.in
-index 66c8ae2..07cbb55 100644
+index 66c8ae2..92b0ffc 100644
 --- a/main.lsf.in
 +++ b/main.lsf.in
-@@ -206,6 +206,8 @@ Static main
+@@ -206,6 +206,9 @@ Static main
      Object asm/unk_020517A4.s
      Object src/battle/battle_setup.c
      Object src/blackout.c
 +    Object src/nuzlocke.c
 +    Object src/nuzlocke_screen.c
++    Object src/nuzlocke_battle.c
      Object src/game_clear.c
      Object src/field_warp_tasks.c
      Object src/script_pokemon_util.c
-@@ -1223,6 +1225,7 @@ Overlay pokegear_app
+@@ -1223,6 +1226,7 @@ Overlay pokegear_app
      Object src/application/pokegear/map/overlay_101_021ED498.c
      Object src/application/pokegear/map/fly_map.c
      Object src/application/pokegear/map/overlay_101_021EDCE0.c
@@ -579,18 +908,49 @@ index d8fcb06..8fe8a4c 100644
              trees[i].unk_0 = 1;
              trees[i].unk_1 = 1;
 diff --git a/src/battle/battle_command.c b/src/battle/battle_command.c
-index 7055047..e104801 100644
+index 7055047..4d7894a 100644
 --- a/src/battle/battle_command.c
 +++ b/src/battle/battle_command.c
-@@ -27,6 +27,7 @@
+@@ -27,6 +27,8 @@
  #include "gf_gfx_loader.h"
  #include "item.h"
  #include "naming_screen.h"
 +#include "nuzlocke.h"
++#include "nuzlocke_battle.h"
  #include "obj_char_transfer.h"
  #include "overlay_07.h"
  #include "overlay_18.h"
-@@ -6695,7 +6696,7 @@ static void Task_GetPokemon(SysTask *task, void *inData) {
+@@ -944,6 +946,8 @@ BOOL BtlCmd_UpdateHealthbarValue(BattleSystem *battleSystem, BattleContext *ctx)
+ 
+     int battlerId = BattleSystem_GetBattlerIDBySide(battleSystem, ctx, BattleScriptReadWord(ctx));
+ 
++    int nuzOldHp = ctx->battleMons[battlerId].hp;
++
+     if ((ctx->battleMons[battlerId].hp + ctx->hpCalc) <= 0) {
+         ctx->hitDamage = ctx->battleMons[battlerId].hp * -1;
+     } else {
+@@ -963,6 +967,7 @@ BOOL BtlCmd_UpdateHealthbarValue(BattleSystem *battleSystem, BattleContext *ctx)
+     }
+ 
+     CopyBattleMonToPartyMon(battleSystem, ctx, battlerId);
++    Nuzlocke_OnBattlerHPChanged(battleSystem, ctx, battlerId, nuzOldHp);
+ 
+     return FALSE;
+ }
+@@ -1817,8 +1822,12 @@ BOOL BtlCmd_UpdateMonData(BattleSystem *battleSystem, BattleContext *ctx) {
+         BattlerSetAbility(ctx, battlerId, var);
+     }
+ 
++    int nuzOldHp = ctx->battleMons[battlerId].hp;
+     SetBattlerVar(ctx, battlerId, varId, &var);
+     CopyBattleMonToPartyMon(battleSystem, ctx, battlerId);
++    if (varId == BMON_DATA_HP) {
++        Nuzlocke_OnBattlerHPChanged(battleSystem, ctx, battlerId, nuzOldHp);
++    }
+ 
+     return FALSE;
+ }
+@@ -6695,7 +6704,7 @@ static void Task_GetPokemon(SysTask *task, void *inData) {
          break;
      case STATE_GET_POKEMON_CHECK_IF_TRAINER:
          if (!ov07_02232F60(data->ballData, BALL_ANIM_THROW)) { // Likely checking if the current ball animation is still active. The second parameter is unused, as the same data is contained in unk8.
@@ -599,7 +959,7 @@ index 7055047..e104801 100644
                  sub_0200602C(SEQ_SE_DP_KON, 0x75);
                  UnkBallData_SetBallAnimation(data->ballData, BALL_ANIM_DEFLECT);
                  data->state = STATE_GET_POKEMON_BALL_BLOCKED;
-@@ -6915,6 +6916,14 @@ static void Task_GetPokemon(SysTask *task, void *inData) {
+@@ -6915,6 +6924,14 @@ static void Task_GetPokemon(SysTask *task, void *inData) {
          }
          break;
      case STATE_GET_POKEMON_ASK_FOR_NICKNAME:
@@ -614,7 +974,15 @@ index 7055047..e104801 100644
          BattleController_EmitShowYesNoMenu(data->battleSystem, data->ctx, 0, 0x364, 5, 0, data->ctx->selectedMonIndex[battlerId] | battlerId); // Would you like to give {0} a nickname?
          data->state++;
          break;
-@@ -7062,6 +7071,10 @@ static void Task_GetPokemon(SysTask *task, void *inData) {
+@@ -6998,6 +7015,7 @@ static void Task_GetPokemon(SysTask *task, void *inData) {
+                 data->state = STATE_GET_POKEMON_DONE_CAUGHT;
+                 break;
+             }
++            Nuzlocke_OnMonCaught(mon, Party_GetCount(party) >= PARTY_SIZE);
+             if (Party_AddMon(party, mon) == TRUE) {
+                 if (data->state == STATE_GET_POKEMON_STORE_MON_NO_NAMING_SCREEN) {
+                     sub_0201649C(BattleSystem_GetMessageIcon(data->battleSystem), 1);
+@@ -7062,6 +7080,10 @@ static void Task_GetPokemon(SysTask *task, void *inData) {
              BattleMessage msg;
              // "The Trainer blocked the Ball!"
              msg.id = msg_0197_00859;
@@ -625,7 +993,7 @@ index 7055047..e104801 100644
              msg.tag = TAG_NONE;
              data->tempData[DATA_GET_POKEMON_PRINTER_ID] = BattleSystem_PrintBattleMessage(data->battleSystem, msgData, &msg, BattleSystem_GetTextFrameDelay(data->battleSystem));
              data->tempData[DATA_GET_POKEMON_FRAME_COUNTER] = 30;
-@@ -7073,6 +7086,10 @@ static void Task_GetPokemon(SysTask *task, void *inData) {
+@@ -7073,6 +7095,10 @@ static void Task_GetPokemon(SysTask *task, void *inData) {
              BattleMessage msg;
              // "Don’t be a thief!"
              msg.id = msg_0197_00860;
@@ -637,18 +1005,19 @@ index 7055047..e104801 100644
              data->tempData[DATA_GET_POKEMON_PRINTER_ID] = BattleSystem_PrintBattleMessage(data->battleSystem, msgData, &msg, BattleSystem_GetTextFrameDelay(data->battleSystem));
              data->tempData[DATA_GET_POKEMON_FRAME_COUNTER] = 30;
 diff --git a/src/battle/battle_controller_player.c b/src/battle/battle_controller_player.c
-index 3c26af9..75b591b 100644
+index 3c26af9..ceab60b 100644
 --- a/src/battle/battle_controller_player.c
 +++ b/src/battle/battle_controller_player.c
-@@ -21,6 +21,7 @@
+@@ -21,6 +21,8 @@
  #include "screen_fade.h"
  #include "sound.h"
  #include "unk_02035900.h"
 +#include "nuzlocke.h"
++#include "nuzlocke_battle.h"
  
  static void BattleControllerPlayer_GetBattleMon(BattleSystem *battleSystem, BattleContext *ctx);
  static void BattleControllerPlayer_StartEncounter(BattleSystem *battleSystem, BattleContext *ctx);
-@@ -1752,7 +1753,7 @@ static void BattleControllerPlayer_ItemInput(BattleSystem *battleSystem, BattleC
+@@ -1752,7 +1754,7 @@ static void BattleControllerPlayer_ItemInput(BattleSystem *battleSystem, BattleC
              break;
          case BTLPOCKETLIST_BALLS:
              script = BATTLE_SUBSCRIPT_THROW_POKEBALL;
@@ -657,7 +1026,7 @@ index 3c26af9..75b591b 100644
                  Bag_TakeItem(BattleSystem_GetBag(battleSystem), item->id, 1, HEAP_ID_BATTLE);
                  BagCursor_Battle_SetLastUsedItem(BattleSystem_GetBagCursor(battleSystem), item->id, item->page);
              }
-@@ -1816,8 +1817,10 @@ static void BattleControllerPlayer_SafariThrowBall(BattleSystem *battleSystem, B
+@@ -1816,8 +1818,10 @@ static void BattleControllerPlayer_SafariThrowBall(BattleSystem *battleSystem, B
      ctx->command = CONTROLLER_COMMAND_RUN_SCRIPT;
      ctx->commandNext = CONTROLLER_COMMAND_40;
      ctx->itemTemp = ITEM_SAFARI_BALL;
@@ -670,6 +1039,14 @@ index 3c26af9..75b591b 100644
      BattleController_EmitRefreshHPGauge(battleSystem, ctx, BATTLER_PLAYER);
  }
  
+@@ -2890,6 +2894,7 @@ static void BattleControllerPlayer_HpCalc(BattleSystem *battleSystem, BattleCont
+             ctx->turnData[ctx->battlerIdTarget].unk38 = ctx->battlerIdAttacker;
+             ctx->battlerIdTemp = ctx->battlerIdTarget;
+             ctx->hpCalc = ctx->damage;
++            Nuzlocke_BattleScriptLoaded(ctx->unk_B8, NARC_a_0_0_0, ctx->moveNoCur, TRUE); // Nuzlocke: damage from the move itself
+             ReadBattleScriptFromNarc(ctx, NARC_a_0_0_1, BATTLE_SUBSCRIPT_UPDATE_HP);
+             ctx->command = CONTROLLER_COMMAND_RUN_SCRIPT;
+             ctx->commandNext = CONTROLLER_COMMAND_29;
 diff --git a/src/battle/battle_setup.c b/src/battle/battle_setup.c
 index 3ec652c..0698cec 100644
 --- a/src/battle/battle_setup.c
@@ -712,6 +1089,35 @@ index d0263ff..e35e0be 100644
                  data = 1;
              }
          } else {
+diff --git a/src/battle/overlay_12_0224E4FC.c b/src/battle/overlay_12_0224E4FC.c
+index c8a4737..67e0f76 100644
+--- a/src/battle/overlay_12_0224E4FC.c
++++ b/src/battle/overlay_12_0224E4FC.c
+@@ -2,6 +2,8 @@
+ 
+ #include "global.h"
+ 
++#include "nuzlocke_battle.h"
++
+ #include "constants/abilities.h"
+ #include "constants/battle.h"
+ #include "constants/battle_menu.h"
+@@ -182,6 +184,7 @@ void ReadBattleScriptFromNarc(BattleContext *ctx, NarcId narcId, int fileId) {
+     ctx->scriptFileId = fileId;
+     ctx->scriptSeqNo = 0;
+     ReadWholeNarcMemberByIdPair(&ctx->battleScriptBuffer, narcId, fileId);
++    Nuzlocke_BattleScriptLoaded(ctx->unk_B8, narcId, fileId, FALSE);
+ }
+ 
+ // PushBattleScriptFromNarc..?
+@@ -196,6 +199,7 @@ void ov12_0224EBDC(BattleContext *ctx, NarcId narcId, int fileId) {
+     ctx->scriptFileId = fileId;
+     ctx->scriptSeqNo = 0;
+     ReadWholeNarcMemberByIdPair(&ctx->battleScriptBuffer, narcId, fileId);
++    Nuzlocke_BattleScriptLoaded(ctx->unk_B8, narcId, fileId, TRUE);
+ }
+ 
+ // BattleScript_Pop..?
 diff --git a/src/blackout.c b/src/blackout.c
 index eebf685..34d71cb 100644
 --- a/src/blackout.c
@@ -737,8 +1143,28 @@ index eebf685..34d71cb 100644
          localFieldData = Save_LocalFieldData_Get(fieldSystem->saveData);
          deathSpawn = LocalFieldData_GetBlackoutSpawn(localFieldData);
          GetDeathWarpData(deathSpawn, &deathWarp);
+diff --git a/src/choose_starter.c b/src/choose_starter.c
+index e61b778..86328dd 100644
+--- a/src/choose_starter.c
++++ b/src/choose_starter.c
+@@ -9,6 +9,7 @@
+ #include "map_header.h"
+ #include "pokedex.h"
+ #include "screen_fade.h"
++#include "nuzlocke.h"
+ #include "task.h"
+ #include "update_dex_received.h"
+ 
+@@ -78,6 +79,7 @@ static BOOL CreateStarter(TaskManager *taskManager) {
+         Pokedex *pokedex = Save_Pokedex_Get(fieldSystem->saveData);
+         party = SaveArray_Party_Get(fieldSystem->saveData);
+         Pokemon *myChoice = &env->args->starters[env->args->cursorPos];
++        Nuzlocke_OnGiftMon(fieldSystem->saveData, myChoice, MapHeader_GetMapSec(fieldSystem->location->mapId), NUZLOCKE_LOG_GIFT); // Nuzlocke
+         if (Party_AddMon(party, myChoice)) {
+             UpdatePokedexWithReceivedSpecies(fieldSystem->saveData, myChoice);
+         }
 diff --git a/src/encounter.c b/src/encounter.c
-index ffa234b..8a065a8 100644
+index ffa234b..bcefb79 100644
 --- a/src/encounter.c
 +++ b/src/encounter.c
 @@ -20,6 +20,8 @@
@@ -770,28 +1196,17 @@ index ffa234b..8a065a8 100644
          if (encounter->setup->battleType == BATTLE_TYPE_NONE || encounter->setup->battleType == BATTLE_TYPE_ROAMER || encounter->setup->battleType == (BATTLE_TYPE_DOUBLES | BATTLE_TYPE_MULTI | BATTLE_TYPE_AI)) {
              sub_02093070(fieldSystem);
              sub_020930C4(fieldSystem);
-@@ -157,9 +165,20 @@ static BOOL Task_StartEncounter(TaskManager *taskManager) { // todo: better name
+@@ -156,7 +164,8 @@ static BOOL Task_StartEncounter(TaskManager *taskManager) { // todo: better name
+         }
  
          sub_02051660(fieldSystem, encounter->setup);
-         CallTask_RestoreOverworld(taskManager);
-+        {
-+            // Nuzlocke: first win against the Champion or Red. Called after
-+            // RestoreOverworld so it runs first (tasks run last-in first-out).
-+            int victory = Nuzlocke_TakePendingVictory();
-+            if (victory >= 0) {
-+                Nuzlocke_CallVictoryScreen(taskManager, victory);
-+            }
-+        }
+-        CallTask_RestoreOverworld(taskManager);
++        // Nuzlocke: victory screen and saving panel (if any), then the overworld.
++        Nuzlocke_RestoreOverworldAfterBattle(taskManager);
          (*state)++;
          break;
      case 4:
-+        if (Nuzlocke_TakeAutosaveRequest(fieldSystem->saveData)) {
-+            Field_SaveGameNormal(fieldSystem); // Nuzlocke: lock in deaths, catches and new encounters
-+        }
-         MapObjectManager_UnpauseAllMovement(fieldSystem->mapObjectManager);
-         CallTask_FadeFromBlack(taskManager);
-         (*state)++;
-@@ -354,6 +373,7 @@ static BOOL Task_WildEncounter(TaskManager *taskManager) {
+@@ -354,6 +363,7 @@ static BOOL Task_WildEncounter(TaskManager *taskManager) {
      case 0:
          MapObjectManager_PauseAllMovement(fieldSystem->mapObjectManager);
          GameStats_Inc(Save_GameStats_Get(fieldSystem->saveData), GAME_STAT_WILD_ENCOUNTERS);
@@ -799,17 +1214,16 @@ index ffa234b..8a065a8 100644
          sub_02055218(taskManager, encounter->effect, encounter->bgm);
          encounter->state++;
          break;
-@@ -387,6 +407,9 @@ static BOOL Task_WildEncounter(TaskManager *taskManager) {
-         break;
-     case 4:
-         ov02_BattleExit_HandleRoamerAction(fieldSystem, encounter->setup);
-+        if (Nuzlocke_TakeAutosaveRequest(fieldSystem->saveData)) {
-+            Field_SaveGameNormal(fieldSystem); // Nuzlocke: lock in deaths, catches and new encounters
-+        }
-         CallTask_FadeFromBlack(taskManager);
+@@ -381,7 +391,7 @@ static BOOL Task_WildEncounter(TaskManager *taskManager) {
+         }
+ 
+         sub_02051660(fieldSystem, encounter->setup);
+-        CallTask_RestoreOverworld(taskManager);
++        Nuzlocke_RestoreOverworldAfterBattle(taskManager); // Nuzlocke: saving panel, then the overworld
+ 
          encounter->state++;
          break;
-@@ -408,6 +431,7 @@ static BOOL Task_SafariEncounter(TaskManager *taskManager) {
+@@ -408,6 +418,7 @@ static BOOL Task_SafariEncounter(TaskManager *taskManager) {
      case 0:
          MapObjectManager_PauseAllMovement(fieldSystem->mapObjectManager);
          GameStats_Inc(Save_GameStats_Get(fieldSystem->saveData), GAME_STAT_WILD_ENCOUNTERS);
@@ -817,7 +1231,7 @@ index ffa234b..8a065a8 100644
          sub_02055218(taskManager, encounter->effect, encounter->bgm);
          (*state)++;
          break;
-@@ -498,6 +522,11 @@ static BOOL Task_BugContestEncounter(TaskManager *taskManager) {
+@@ -498,6 +509,11 @@ static BOOL Task_BugContestEncounter(TaskManager *taskManager) {
          break;
      case 3:
          sub_02050724(encounter->setup, fieldSystem);
@@ -829,8 +1243,140 @@ index ffa234b..8a065a8 100644
          if (!IsBattleResultWin(encounter->setup->winFlag)) {
              Encounter_Delete(encounter);
              TaskManager_Jump(taskManager, sub_0205298C, NULL);
+diff --git a/src/field/draw_map_name.c b/src/field/draw_map_name.c
+index e92b091..38712ca 100644
+--- a/src/field/draw_map_name.c
++++ b/src/field/draw_map_name.c
+@@ -8,10 +8,14 @@
+ #include "constants/map_sections.h"
+ 
+ #include "msgdata/msg.naix"
++#include "msgdata/msg/msg_0203.h"
+ #include "msgdata/msg/msg_0279.h"
+ 
+ #include "field_system.h"
+ #include "gf_gfx_loader.h"
++#include "map_header.h"
++#include "message_format.h"
++#include "nuzlocke.h"
+ #include "overlay_01.h" // FIXME: This is included for FieldSystem_DrawMapNameAnimation, is there a way to do this properly without causing dependency issues with field_system?
+ #include "text.h"
+ #include "unk_02068F84.h"
+@@ -121,8 +125,86 @@ static void Task_MapNameAndIcon(SysTask *task, FieldDrawMapNameInfo *info) {
+     }
+ }
+ 
++// ------------------------------------------------------------------
++// Nuzlocke: a small panel to the right of the area sign saying whether
++// the area's first encounter is still available. It uses the sign's own
++// window (columns 17-31 are unused by the sign) with its own palette.
++// ------------------------------------------------------------------
++#define NZ_AREA_PLTT   14
++#define NZ_AREA_COL    17
++#define NZ_AREA_X      (NZ_AREA_COL * 8)
++#define NZ_AREA_W      (32 * 8 - NZ_AREA_X - 2)
++
++enum {
++    NZA_CLEAR,
++    NZA_WHITE,
++    NZA_SHADOW,
++    NZA_PANEL,
++    NZA_GREEN,
++    NZA_RED,
++    NZA_BORDER,
++};
++
++static const u16 sNuzlockeAreaPalette[16] = {
++    [NZA_CLEAR] = RGB(0, 0, 0),
++    [NZA_WHITE] = RGB(31, 31, 31),
++    [NZA_SHADOW] = RGB(3, 3, 6),
++    [NZA_PANEL] = RGB(6, 8, 14),
++    [NZA_GREEN] = RGB(12, 30, 12),
++    [NZA_RED] = RGB(31, 14, 14),
++    [NZA_BORDER] = RGB(20, 22, 28),
++};
++
++static void Nuzlocke_PrintAreaLine(FieldDrawMapNameInfo *info, MsgData *msgData, MessageFormat *msgFmt, u32 msgNo, int y, u8 fg) {
++    String *tmp = String_New(64, HEAP_ID_FIELD1);
++    String *str = String_New(64, HEAP_ID_FIELD1);
++    int width;
++    ReadMsgDataIntoString(msgData, msgNo, tmp);
++    StringExpandPlaceholders(msgFmt, str, tmp);
++    width = FontID_String_GetWidth(FONT_SYSTEM, str, 0);
++    AddTextPrinterParameterizedWithColor(&info->window, FONT_SYSTEM, str, NZ_AREA_X + (width < NZ_AREA_W ? (NZ_AREA_W - width) / 2 : 0), y, TEXT_SPEED_NOTRANSFER, MAKE_TEXT_COLOR(fg, NZA_SHADOW, NZA_PANEL), NULL);
++    String_Delete(str);
++    String_Delete(tmp);
++}
++
++static void Nuzlocke_DrawAreaStatus(FieldDrawMapNameInfo *info) {
++    MsgData *msgData;
++    MessageFormat *msgFmt;
++    s8 status = info->nuzlockeStatus;
++
++    if (status < 0) {
++        return;
++    }
++    DC_FlushRange((void *)sNuzlockeAreaPalette, sizeof(sNuzlockeAreaPalette));
++    GX_LoadBGPltt(sNuzlockeAreaPalette, NZ_AREA_PLTT * 32, sizeof(sNuzlockeAreaPalette));
++
++    FillWindowPixelRect(&info->window, NZA_BORDER, NZ_AREA_X, 0, NZ_AREA_W, 32);
++    FillWindowPixelRect(&info->window, NZA_PANEL, NZ_AREA_X + 1, 1, NZ_AREA_W - 2, 30);
++
++    msgData = NewMsgDataFromNarc(MSGDATA_LOAD_LAZY, NARC_msgdata_msg, msg_0203, HEAP_ID_FIELD1);
++    msgFmt = MessageFormat_New(HEAP_ID_FIELD1);
++    if (status == NUZLOCKE_LOG_EMPTY) {
++        Nuzlocke_PrintAreaLine(info, msgData, msgFmt, msg_0203_00068, 0, NZA_GREEN);
++        Nuzlocke_PrintAreaLine(info, msgData, msgFmt, msg_0203_00078, 15, NZA_GREEN);
++    } else {
++        BOOL ok = NUZLOCKE_LOG_IS_SUCCESS(status);
++        BufferSpeciesName(msgFmt, 0, info->nuzlockeSpecies);
++        Nuzlocke_PrintAreaLine(info, msgData, msgFmt, ok ? msg_0203_00024 : msg_0203_00025, 0, ok ? NZA_GREEN : NZA_RED);
++        Nuzlocke_PrintAreaLine(info, msgData, msgFmt, msg_0203_00077, 15, NZA_WHITE);
++    }
++    MessageFormat_Delete(msgFmt);
++    DestroyMsgData(msgData);
++}
++
+ static void PrintMapNameOnIcon(FieldDrawMapNameInfo *info, String *name) {
++    Nuzlocke_DrawAreaStatus(info);
+     AddTextPrinterParameterizedWithColor(&info->window, FONT_SYSTEM, name, info->nameX, 8, TEXT_SPEED_INSTANT, MAKE_TEXT_COLOR(1, 2, 0), NULL);
++    if (info->nuzlockeStatus >= 0) {
++        // The panel's tiles use the Nuzlocke palette, not the sign's.
++        CopyWindowToVram(&info->window);
++        BgTilemapRectChangePalette(info->bgConfig, GF_BG_LYR_MAIN_3, NZ_AREA_COL, 0, 32 - NZ_AREA_COL, 4, NZ_AREA_PLTT);
++        BgCommitTilemapBufferToVram(info->bgConfig, GF_BG_LYR_MAIN_3);
++    }
+ }
+ 
+ static void FieldDrawMapName_StartAscending(FieldDrawMapNameInfo *info) {
+@@ -146,8 +228,10 @@ void FieldDrawMapNameInfo_Destroy(FieldDrawMapNameInfo *info) {
+     Heap_Free(info);
+ }
+ 
+-static void FieldDrawMapName_Start(FieldDrawMapNameInfo *info, u32 mapsec, u32 areaIcon) {
++static void FieldDrawMapName_Start(FieldDrawMapNameInfo *info, u32 mapsec, u32 areaIcon, s8 nuzlockeStatus, u16 nuzlockeSpecies) {
+     info->mapsec = mapsec;
++    info->nuzlockeStatus = nuzlockeStatus;
++    info->nuzlockeSpecies = nuzlockeSpecies;
+     if (!info->onScreen) {
+         info->onScreen = TRUE;
+         BgSetPosTextAndCommit(info->bgConfig, GF_BG_LYR_MAIN_3, BG_POS_OP_SET_Y, 38);
+@@ -198,5 +282,12 @@ void FieldSystem_DrawMapNameAnimation(FieldSystem *fieldSystem) {
+         areaIcon--;
+     }
+ 
+-    FieldDrawMapName_Start(fieldSystem->unk4->drawMapNameInfo, mapsec, areaIcon);
++    // Nuzlocke: encounter status for areas with wild Pokemon.
++    u16 nuzlockeSpecies = 0;
++    int nuzlockeStatus = -1;
++    if (MapHeader_HasWildEncounters(fieldSystem->location->mapId)) {
++        nuzlockeStatus = Nuzlocke_GetAreaStatus(fieldSystem->saveData, mapsec, &nuzlockeSpecies);
++    }
++
++    FieldDrawMapName_Start(fieldSystem->unk4->drawMapNameInfo, mapsec, areaIcon, nuzlockeStatus, nuzlockeSpecies);
+ }
 diff --git a/src/field/field_control.c b/src/field/field_control.c
-index 408c1f2..bad9e6f 100644
+index 408c1f2..0f7406d 100644
 --- a/src/field/field_control.c
 +++ b/src/field/field_control.c
 @@ -63,6 +63,7 @@
@@ -850,7 +1396,19 @@ index 408c1f2..bad9e6f 100644
  void FieldInput_Update(FieldInput *fieldInput, FieldSystem *fieldSystem, u16 newKeys, u16 heldKeys) {
      FieldInput_Clear(fieldInput);
  
-@@ -306,6 +309,30 @@ int FieldInput_Process(FieldInput *fieldInput, FieldSystem *fieldSystem) {
+@@ -211,6 +214,11 @@ int FieldInput_Process(FieldInput *fieldInput, FieldSystem *fieldSystem) {
+         }
+     }
+ 
++    // Nuzlocke: a received Pokemon that still needs a nickname.
++    if (fieldInput->unk0_8 && Nuzlocke_TryStartGiftNaming(fieldSystem)) {
++        return 1;
++    }
++
+     if (fieldInput->movement) {
+         Save_VarsFlags_ClearStepTakenFlag(Save_VarsFlags_Get(fieldSystem->saveData));
+         if (FieldSystem_ProcessStep(fieldSystem) == TRUE) {
+@@ -306,6 +314,30 @@ int FieldInput_Process(FieldInput *fieldInput, FieldSystem *fieldSystem) {
          return 2;
      }
  
@@ -907,6 +1465,29 @@ index 2f92dff..748d10e 100644
          if (CheckFlag966(varsFlags)) {
              localFieldData = Save_LocalFieldData_Get(fieldSystem->saveData);
              if (_IsPlayerStandingInFrontOfUnionRoomReception(fieldSystem)) {
+diff --git a/src/hatch_egg_task.c b/src/hatch_egg_task.c
+index 37fc472..7ca97ea 100644
+--- a/src/hatch_egg_task.c
++++ b/src/hatch_egg_task.c
+@@ -3,6 +3,7 @@
+ #include "get_egg.h"
+ #include "naming_screen.h"
+ #include "overlay_95.h"
++#include "nuzlocke.h"
+ #include "trainer_memo.h"
+ #include "unk_02055244.h"
+ #include "unk_020552A4.h"
+@@ -57,8 +58,9 @@ static BOOL Task_HatchEggInParty(TaskManager *taskManager) {
+         SetMonData(pokemon, MON_DATA_SPECIES_NAME, NULL);
+         sub_02093134(fieldSystem, pokemon);
+         UpdatePokedexWithReceivedSpecies(FieldSystem_GetSaveData(fieldSystem), data->unkC.mon);
++        Nuzlocke_OnGiftMon(FieldSystem_GetSaveData(fieldSystem), pokemon, mapsec, NUZLOCKE_LOG_EGG); // Nuzlocke: log the hatch
+ 
+-        if (data->wantToNameNewMon == TRUE) {
++        if (data->wantToNameNewMon == TRUE || NUZLOCKE_FORCE_NICKNAMES) { // Nuzlocke: hatched Pokemon are always named
+             data->state = HATCHEGGTASKSTATE_OPEN_NAMING_SCREEN;
+         } else {
+             data->state = HATCHEGGTASKSTATE_LOAD_OVERWORLD;
 diff --git a/src/main.c b/src/main.c
 index 30a2b52..a100407 100644
 --- a/src/main.c
@@ -928,12 +1509,47 @@ index 30a2b52..a100407 100644
                  DoSoftReset(0); // no return
              }
          }
+diff --git a/src/naming_screen.c b/src/naming_screen.c
+index 2d2af7e..df14837 100644
+--- a/src/naming_screen.c
++++ b/src/naming_screen.c
+@@ -31,6 +31,7 @@
+ #include "unk_0200B150.h"
+ #include "unk_02013534.h"
+ #include "unk_020163E0.h"
++#include "nuzlocke.h"
+ #include "vram_transfer_manager.h"
+ 
+ #define NAME_SCREEN_CONTROL_DAKU            0xD001 // unused
+@@ -1709,6 +1710,22 @@ static NamingScreenMainState NamingScreen_HandleCharacterInput(NamingScreenAppDa
+         }
+         break;
+     case NAME_SCREEN_BUTTON_OK:
++#if NUZLOCKE_FORCE_NICKNAMES
++        // Nuzlocke: every Pokemon needs a real nickname; a blank one isn't accepted.
++        if (data->type == NAME_SCREEN_POKEMON) {
++            BOOL blank = TRUE;
++            int nzI;
++            for (nzI = 0; nzI < data->textCursorPos; nzI++) {
++                if (data->entryBuf[nzI] != CHAR_SPACE && data->entryBuf[nzI] != CHAR_JP_SPACE) {
++                    blank = FALSE;
++                }
++            }
++            if (blank) {
++                PlaySE(SEQ_SE_DP_CUSTOM06);
++                break;
++            }
++        }
++#endif
+         sub_020164C4(data->unk_5C4);
+         if (!data->printedFromBattleGMM) {
+             PlaySE(SEQ_SE_DP_PIRORIRO);
 diff --git a/src/nuzlocke.c b/src/nuzlocke.c
 new file mode 100644
-index 0000000..2429f7f
+index 0000000..8ebcced
 --- /dev/null
 +++ b/src/nuzlocke.c
-@@ -0,0 +1,509 @@
+@@ -0,0 +1,792 @@
 +#include "nuzlocke.h"
 +
 +#include "global.h"
@@ -962,7 +1578,13 @@ index 0000000..2429f7f
 +
 +#include "constants/trainers.h"
 +
++#include "brightness.h"
 +#include "igt.h"
++#include "launch_application.h"
++#include "map_object.h"
++#include "naming_screen.h"
++#include "palette.h"
++#include "screen_fade.h"
 +#include "mystery_gift.h"
 +#include "player_data.h"
 +#include "pokedex.h"
@@ -982,6 +1604,13 @@ index 0000000..2429f7f
 +static u8 sLogPending;
 +static u8 sAutosaveRequested; // set when a battle changed something worth saving
 +static u8 sLogPendingMapsec;
++static u8 sRandomEncounter;  // this battle came from grass/water/etc.
++static u8 sShinyEncounter;   // ...and the wild Pokemon was shiny
++static u8 sCaughtValid;
++static u8 sCaughtToPC;
++static NuzlockeDeath sCaught; // the Pokemon caught in this battle (after naming)
++static u8 sEventCount;
++static NuzlockeEvent sEvents[NUZLOCKE_MAX_EVENTS];
 +
 +// ------------------------------------------------------------------
 +// Encounter log storage. Mystery Gift can't be used (no wireless or
@@ -990,6 +1619,8 @@ index 0000000..2429f7f
 +// empty.
 +// ------------------------------------------------------------------
 +typedef char NuzlockeLogFits[(NUZLOCKE_LOG_MAX * sizeof(NuzlockeLogEntry) <= sizeof(((WonderCard *)0)->text)) ? 1 : -1];
++
++static BOOL Nuzlocke_IsAreaUsed(NuzlockeSave *nz, u32 mapsec);
 +
 +static NuzlockeLogEntry *Nuzlocke_LogBase(SaveData *saveData) {
 +    MysteryGiftSave *mg = SaveArray_Get(saveData, SAVE_MYSTERY_GIFT);
@@ -1016,11 +1647,233 @@ index 0000000..2429f7f
 +    int count = Nuzlocke_GetLogCount(saveData);
 +    int i;
 +    for (i = 0; i < count; i++) {
-+        if (log[i].mapsec == mapsec) {
++        if (log[i].mapsec == mapsec && !NUZLOCKE_LOG_IS_BONUS(log[i].status)) {
 +            return &log[i];
 +        }
 +    }
 +    return NULL;
++}
++
++// Bonus entries (shiny, gift, one-time encounters, Eggs) are added to the
++// end of the log and never use up an area.
++static void Nuzlocke_AddBonusLog(SaveData *saveData, u32 mapsec, u16 species, u8 status) {
++    NuzlockeLogEntry *log = Nuzlocke_LogBase(saveData);
++    int count = Nuzlocke_GetLogCount(saveData);
++    if (count >= NUZLOCKE_LOG_MAX || species == SPECIES_NONE) {
++        return;
++    }
++    log[count].mapsec = mapsec;
++    log[count].species = species;
++    log[count].status = status;
++    SaveSubstruct_UpdateCRC(SAVE_MYSTERY_GIFT);
++}
++
++// ------------------------------------------------------------------
++// Death records. Stored in the text areas of the first two Wonder Card
++// slots and the special Wonder Card (15 records of 32 bytes each).
++// ------------------------------------------------------------------
++typedef char NuzlockeDeathsFit[(NUZLOCKE_DEATHS_PER_AREA * sizeof(NuzlockeDeath) <= sizeof(((WonderCard *)0)->text)) ? 1 : -1];
++typedef char NuzlockeDeathSize[(sizeof(NuzlockeDeath) == 32) ? 1 : -1];
++
++static NuzlockeDeath *Nuzlocke_DeathSlot(SaveData *saveData, int index) {
++    MysteryGiftSave *mg = SaveArray_Get(saveData, SAVE_MYSTERY_GIFT);
++    WonderCard *card;
++    int area = index / NUZLOCKE_DEATHS_PER_AREA;
++    if (area < NUM_SAVED_WONDER_CARDS - 1) {
++        card = &mg->cards[area];
++    } else {
++        card = &mg->specialWonderCard;
++    }
++    return &((NuzlockeDeath *)card->text)[index % NUZLOCKE_DEATHS_PER_AREA];
++}
++
++int Nuzlocke_GetDeathRecordCount(SaveData *saveData) {
++    int i;
++    for (i = 0; i < NUZLOCKE_DEATHS_MAX; i++) {
++        if (Nuzlocke_DeathSlot(saveData, i)->species == SPECIES_NONE) {
++            break;
++        }
++    }
++    return i;
++}
++
++const NuzlockeDeath *Nuzlocke_GetDeathRecord(SaveData *saveData, int index) {
++    return Nuzlocke_DeathSlot(saveData, index);
++}
++
++void Nuzlocke_DeathRecordGetName(const NuzlockeDeath *death, u16 *dest) {
++    int i;
++    for (i = 0; i < NUZLOCKE_DEATH_NAME_LEN && death->nickname[i] != EOS; i++) {
++        dest[i] = death->nickname[i];
++    }
++    dest[i] = EOS;
++}
++
++static void Nuzlocke_FillMonInfo(NuzlockeDeath *info, Pokemon *mon, u32 mapsec) {
++    u16 name[POKEMON_NAME_LENGTH + 1];
++    int i;
++    MI_CpuClear8(info, sizeof(NuzlockeDeath));
++    info->species = GetMonData(mon, MON_DATA_SPECIES, NULL);
++    info->level = GetMonData(mon, MON_DATA_LEVEL, NULL);
++    info->form = GetMonData(mon, MON_DATA_FORM, NULL);
++    info->mapsec = mapsec;
++    GetMonData(mon, MON_DATA_NICKNAME, name);
++    for (i = 0; i < NUZLOCKE_DEATH_NAME_LEN; i++) {
++        info->nickname[i] = name[i];
++        if (name[i] == EOS) {
++            break;
++        }
++    }
++}
++
++static void Nuzlocke_AddEvent(u8 kind, u8 detail, const NuzlockeDeath *info) {
++    NuzlockeEvent *event;
++    if (sEventCount >= NUZLOCKE_MAX_EVENTS) {
++        // Keep the most recent events.
++        MI_CpuCopy8(&sEvents[1], &sEvents[0], sizeof(NuzlockeEvent) * (NUZLOCKE_MAX_EVENTS - 1));
++        sEventCount = NUZLOCKE_MAX_EVENTS - 1;
++    }
++    event = &sEvents[sEventCount++];
++    event->kind = kind;
++    event->detail = detail;
++    if (info != NULL) {
++        event->info = *info;
++    } else {
++        MI_CpuClear8(&event->info, sizeof(NuzlockeDeath));
++    }
++}
++
++int Nuzlocke_GetEventCount(void) {
++    return sEventCount;
++}
++
++const NuzlockeEvent *Nuzlocke_GetEvent(int index) {
++    return &sEvents[index];
++}
++
++// Records how a party Pokemon died (cause from the battle engine).
++static void Nuzlocke_RecordDeath(SaveData *saveData, Pokemon *mon, u32 mapsec) {
++    NuzlockeDeath info;
++    int count = Nuzlocke_GetDeathRecordCount(saveData);
++
++    Nuzlocke_FillMonInfo(&info, mon, mapsec);
++    if (!Nuzlocke_GetFaintCause(GetMonData(mon, MON_DATA_PERSONALITY, NULL), &info.cause, &info.foeSpecies, &info.trainerId, &info.move)) {
++        info.cause = NUZLOCKE_CAUSE_UNKNOWN;
++    }
++    if (count < NUZLOCKE_DEATHS_MAX) {
++        *Nuzlocke_DeathSlot(saveData, count) = info;
++        SaveSubstruct_UpdateCRC(SAVE_MYSTERY_GIFT);
++    }
++    Nuzlocke_AddEvent(NUZLOCKE_EVENT_DEATH, 0, &info);
++}
++
++void Nuzlocke_OnMonCaught(Pokemon *mon, BOOL sentToPC) {
++    Nuzlocke_FillMonInfo(&sCaught, mon, 0);
++    sCaughtValid = TRUE;
++    sCaughtToPC = sentToPC;
++}
++
++// ------------------------------------------------------------------
++// Gifts
++// ------------------------------------------------------------------
++void Nuzlocke_OnGiftMon(SaveData *saveData, Pokemon *mon, u32 mapsec, u8 logKind) {
++#if NUZLOCKE_FORCE_NICKNAMES
++    if (logKind != NUZLOCKE_LOG_EGG) { // hatching has its own naming screen
++        u8 flag = TRUE;
++        SetMonData(mon, NUZLOCKE_NAME_MARKER, &flag);
++    }
++#endif
++    Nuzlocke_AddBonusLog(saveData, mapsec, GetMonData(mon, MON_DATA_SPECIES, NULL), logKind);
++}
++
++// A received Pokemon that wasn't given a nickname in the event that gave
++// it gets the naming screen as soon as the player is back in control.
++typedef struct NuzlockeGiftNaming {
++    u8 state;
++    u8 slot;
++    u16 result;
++} NuzlockeGiftNaming;
++
++static BOOL Task_NuzlockeGiftNaming(TaskManager *taskManager) {
++    FieldSystem *fieldSystem = TaskManager_GetFieldSystem(taskManager);
++    NuzlockeGiftNaming *env = TaskManager_GetEnvironment(taskManager);
++    Party *party = SaveArray_Party_Get(fieldSystem->saveData);
++
++    switch (env->state) {
++    case 0:
++        MapObjectManager_PauseAllMovement(fieldSystem->mapObjectManager);
++        BeginNormalPaletteFade(FADE_BOTH_SCREENS, FADE_TYPE_BRIGHTNESS_OUT, FADE_TYPE_BRIGHTNESS_OUT, RGB_BLACK, 6, 1, HEAP_ID_FIELD3);
++        env->state++;
++        break;
++    case 1:
++        if (IsPaletteFadeFinished()) {
++            Pokemon *mon = Party_GetMonByIndex(party, env->slot);
++            CallTask_NamingScreen(taskManager, NAME_SCREEN_POKEMON, GetMonData(mon, MON_DATA_SPECIES, NULL), POKEMON_NAME_LENGTH, env->slot, NULL, &env->result);
++            env->state++;
++        }
++        break;
++    case 2: {
++        u8 flag = FALSE;
++        SetMonData(Party_GetMonByIndex(party, env->slot), NUZLOCKE_NAME_MARKER, &flag);
++        BeginNormalPaletteFade(FADE_BOTH_SCREENS, FADE_TYPE_BRIGHTNESS_IN, FADE_TYPE_BRIGHTNESS_IN, RGB_BLACK, 6, 1, HEAP_ID_FIELD3);
++        env->state++;
++        break;
++    }
++    case 3:
++        if (IsPaletteFadeFinished()) {
++            MapObjectManager_UnpauseAllMovement(fieldSystem->mapObjectManager);
++            Heap_Free(env);
++            return TRUE;
++        }
++        break;
++    }
++    return FALSE;
++}
++
++BOOL Nuzlocke_TryStartGiftNaming(FieldSystem *fieldSystem) {
++#if NUZLOCKE_FORCE_NICKNAMES
++    Party *party = SaveArray_Party_Get(fieldSystem->saveData);
++    int i;
++    for (i = 0; i < Party_GetCount(party); i++) {
++        Pokemon *mon = Party_GetMonByIndex(party, i);
++        if (!GetMonData(mon, NUZLOCKE_NAME_MARKER, NULL)) {
++            continue;
++        }
++        if (GetMonData(mon, MON_DATA_HAS_NICKNAME, NULL) || GetMonData(mon, MON_DATA_IS_EGG, NULL)) {
++            u8 flag = FALSE;
++            SetMonData(mon, NUZLOCKE_NAME_MARKER, &flag); // already named
++            continue;
++        }
++        NuzlockeGiftNaming *env = Heap_Alloc(HEAP_ID_FIELD2, sizeof(NuzlockeGiftNaming));
++        env->state = 0;
++        env->slot = i;
++        env->result = 0;
++        FieldSystem_CreateTask(fieldSystem, Task_NuzlockeGiftNaming, env);
++        return TRUE;
++    }
++#endif
++    return FALSE;
++}
++
++// ------------------------------------------------------------------
++// Area status popup
++// ------------------------------------------------------------------
++int Nuzlocke_GetAreaStatus(SaveData *saveData, u32 mapsec, u16 *species) {
++    NuzlockeSave *nz = Save_Nuzlocke_Get(saveData);
++    const NuzlockeLogEntry *entry;
++    if (!nz->rulesActive || nz->runOver || sTestMode) {
++        return -1;
++    }
++    entry = Nuzlocke_FindLogEntry(saveData, mapsec);
++    if (entry != NULL) {
++        *species = entry->species;
++        return entry->status;
++    }
++    if (Nuzlocke_IsAreaUsed(nz, mapsec)) {
++        return -1; // used before the log existed
++    }
++    *species = SPECIES_NONE;
++    return NUZLOCKE_LOG_EMPTY;
 +}
 +
 +static void Nuzlocke_SetLog(SaveData *saveData, u32 mapsec, u16 species, u8 status) {
@@ -1125,6 +1978,8 @@ index 0000000..2429f7f
 +// still loaded.
 +BOOL Nuzlocke_OnRandomEncounterStart(FieldSystem *fieldSystem, BattleSetup *setup) {
 +    sCatchBlocked = FALSE;
++    sRandomEncounter = TRUE;
++    sShinyEncounter = MonIsShiny(Party_GetMonByIndex(setup->party[BATTLER_ENEMY], 0));
 +#if NUZLOCKE_ENCOUNTER_RULE
 +    if (!Nuzlocke_UpdateRulesActive(fieldSystem->saveData)) {
 +        return FALSE;
@@ -1164,6 +2019,9 @@ index 0000000..2429f7f
 +
 +void Nuzlocke_OnBattleStart(FieldSystem *fieldSystem) {
 +    sRulesActiveInBattle = Nuzlocke_UpdateRulesActive(fieldSystem->saveData);
++    sCaughtValid = FALSE;
++    sEventCount = 0;
++    Nuzlocke_BattleReset();
 +}
 +
 +static BOOL Nuzlocke_MonIsDead(Pokemon *mon) {
@@ -1190,19 +2048,55 @@ index 0000000..2429f7f
 +    Party_RemoveMon(party, slot);
 +}
 +
++#define NUZLOCKE_NOT_WILD (BATTLE_TYPE_TRAINER | BATTLE_TYPE_LINK | BATTLE_TYPE_TUTORIAL | BATTLE_TYPE_PAL_PARK | BATTLE_TYPE_BUG_CONTEST | BATTLE_TYPE_FRONTIER | BATTLE_TYPE_DEBUG)
++
 +void Nuzlocke_OnBattleEnd(BattleSetup *setup, FieldSystem *fieldSystem) {
++    u32 mapsec = MapHeader_GetMapSec(fieldSystem->location->mapId);
++    BOOL caught = setup->winFlag == BATTLE_OUTCOME_MON_CAUGHT;
++    BOOL wild = !(setup->battleType & NUZLOCKE_NOT_WILD);
++    u16 wildSpecies = wild ? GetMonData(Party_GetMonByIndex(setup->party[BATTLER_ENEMY], 0), MON_DATA_SPECIES, NULL) : SPECIES_NONE;
++    BOOL rules = Nuzlocke_UpdateRulesActive(fieldSystem->saveData);
++
 +    sCatchBlocked = FALSE;
 +
-+    if (setup->winFlag == BATTLE_OUTCOME_MON_CAUGHT) {
++    if (caught) {
 +        sAutosaveRequested = TRUE; // a catch
++        if (sCaughtValid) {
++            sCaught.mapsec = mapsec;
++            Nuzlocke_AddEvent(NUZLOCKE_EVENT_CAUGHT, sCaughtToPC, &sCaught);
++        }
 +    }
 +    if (sLogPending) {
 +        sAutosaveRequested = TRUE; // the area's first encounter
-+        if (setup->winFlag == BATTLE_OUTCOME_MON_CAUGHT) {
++        if (caught) {
 +            Nuzlocke_SetLog(fieldSystem->saveData, sLogPendingMapsec, SPECIES_NONE, NUZLOCKE_LOG_CAUGHT);
++        } else {
++            NuzlockeDeath info;
++            MI_CpuClear8(&info, sizeof(info));
++            info.species = wildSpecies;
++            info.mapsec = sLogPendingMapsec;
++            info.level = GetMonData(Party_GetMonByIndex(setup->party[BATTLER_ENEMY], 0), MON_DATA_LEVEL, NULL);
++            Nuzlocke_AddEvent(NUZLOCKE_EVENT_FAILED, setup->winFlag, &info);
 +        }
 +        sLogPending = FALSE;
++    } else if (wild && rules && !(setup->battleType & BATTLE_TYPE_SAFARI)) {
++        // Encounters that don't use up an area go in the log as bonus entries.
++        if (sRandomEncounter && !(setup->battleType & BATTLE_TYPE_ROAMER)) {
++            if (sShinyEncounter && caught) {
++                Nuzlocke_AddBonusLog(fieldSystem->saveData, mapsec, wildSpecies, NUZLOCKE_LOG_SHINY);
++            }
++        } else if (caught) {
++            Nuzlocke_AddBonusLog(fieldSystem->saveData, mapsec, wildSpecies, NUZLOCKE_LOG_STATIC);
++        } else if (setup->winFlag == BATTLE_OUTCOME_WIN) {
++            Nuzlocke_AddBonusLog(fieldSystem->saveData, mapsec, wildSpecies, NUZLOCKE_LOG_STATIC_FAILED);
++            sAutosaveRequested = TRUE; // it's gone for good
++        }
++    } else if (sShinyEncounter && caught) {
++        Nuzlocke_AddBonusLog(fieldSystem->saveData, mapsec, wildSpecies, NUZLOCKE_LOG_SHINY);
 +    }
++    sRandomEncounter = FALSE;
++    sShinyEncounter = FALSE;
++    sCaughtValid = FALSE;
 +
 +#if NUZLOCKE_PERMADEATH
 +    SaveData *saveData = fieldSystem->saveData;
@@ -1230,8 +2124,11 @@ index 0000000..2429f7f
 +        // can be shown on the run-over screen, but count them as fallen.
 +        for (i = 0; i < count; i++) {
 +            Pokemon *mon = Party_GetMonByIndex(party, i);
-+            if (GetMonData(mon, MON_DATA_SPECIES_EXISTS, NULL) && !GetMonData(mon, MON_DATA_IS_EGG, NULL) && nz->deaths < 0xFFFF) {
-+                nz->deaths++;
++            if (GetMonData(mon, MON_DATA_SPECIES_EXISTS, NULL) && !GetMonData(mon, MON_DATA_IS_EGG, NULL) && !Nuzlocke_MonIsDead(mon)) {
++                if (nz->deaths < 0xFFFF) {
++                    nz->deaths++;
++                }
++                Nuzlocke_RecordDeath(saveData, mon, mapsec);
 +            }
 +        }
 +#if NUZLOCKE_WIPEOUT_ENDS
@@ -1247,6 +2144,7 @@ index 0000000..2429f7f
 +        }
 +        if (GetMonData(mon, MON_DATA_HP, NULL) == 0) {
 +            u8 dead = TRUE;
++            Nuzlocke_RecordDeath(saveData, mon, mapsec);
 +            SetMonData(mon, NUZLOCKE_DEAD_MARKER, &dead);
 +            if (nz->deaths < 0xFFFF) {
 +                nz->deaths++;
@@ -1315,6 +2213,7 @@ index 0000000..2429f7f
 +    // Snapshot the winning team (after any deaths in the final battle).
 +    Nuzlocke_FillRecord(saveData, &nz->records[record]);
 +    sPendingVictory = record;
++    Nuzlocke_AddEvent(NUZLOCKE_EVENT_VICTORY, record, NULL);
 +    sAutosaveRequested = TRUE; // a victory
 +#endif
 +}
@@ -1443,12 +2342,275 @@ index 0000000..2429f7f
 +    sTestTrainer = red ? TRAINER_PKMN_TRAINER_RED_RED : TRAINER_CHAMPION_LANCE;
 +    FieldSystem_CreateTask(fieldSystem, Task_NuzlockeTestBattle, NULL);
 +}
+diff --git a/src/nuzlocke_battle.c b/src/nuzlocke_battle.c
+new file mode 100644
+index 0000000..35bd608
+--- /dev/null
++++ b/src/nuzlocke_battle.c
+@@ -0,0 +1,257 @@
++#include "nuzlocke.h"
++
++#include "global.h"
++
++#include "constants/battle.h"
++#include "constants/battle_subscript.h"
++
++#include "battle/battle.h"
++#include "battle/battle_system.h"
++#include "filesystem_files_def.h"
++#include "nuzlocke_battle.h"
++
++// ------------------------------------------------------------------
++// Death causes.
++//
++// The battle engine runs scripts from NARCs and can call into
++// "subscripts" (up to 4 deep). Every source of damage ends up in the
++// UPDATE_HP subscript, so the cause of a faint is whichever script
++// called into it: the move script for a normal hit, the poison
++// subscript for poison damage, the weather subscript for sandstorm, etc.
++//
++// For each depth of the script stack we remember the script that was
++// entered there. Jumps (not calls) into UPDATE_HP keep the old entry
++// so that "poison -> goto UPDATE_HP" still counts as poison.
++// ------------------------------------------------------------------
++
++#define ORIGIN_MOVE 0xFFFF // a move or move-effect script
++#define ORIGIN_DEPTH 5
++
++static u16 sOrigin[ORIGIN_DEPTH];
++
++typedef struct NuzlockeFaint {
++    u32 personality;
++    u16 foeSpecies;
++    u16 trainerId;
++    u16 move;
++    u8 cause;
++    u8 used;
++} NuzlockeFaint;
++
++static NuzlockeFaint sFaints[PARTY_SIZE * 2];
++
++void Nuzlocke_BattleReset(void) {
++    MI_CpuClear8(sFaints, sizeof(sFaints));
++    MI_CpuClear8(sOrigin, sizeof(sOrigin));
++}
++
++void Nuzlocke_BattleScriptLoaded(int depth, int narcId, int fileId, BOOL isCall) {
++    u16 origin;
++    if (depth < 0 || depth >= ORIGIN_DEPTH) {
++        return;
++    }
++    origin = (narcId == NARC_a_0_0_1) ? fileId : ORIGIN_MOVE;
++    if (!isCall && origin == BATTLE_SUBSCRIPT_UPDATE_HP) {
++        return; // tail jump into the HP update: keep whoever jumped here
++    }
++    sOrigin[depth] = origin;
++}
++
++// Scripts that don't say anything about where the damage came from.
++static BOOL Nuzlocke_IsNeutralScript(u16 origin) {
++    switch (origin) {
++    case BATTLE_SUBSCRIPT_UPDATE_HP:
++    case BATTLE_SUBSCRIPT_FAINT_MON:
++    case BATTLE_SUBSCRIPT_CRITICAL_HIT:
++    case BATTLE_SUBSCRIPT_TYPE_RESIST_BERRY:
++    case BATTLE_SUBSCRIPT_WAIT_MOVE_ANIMATION:
++    case BATTLE_SUBSCRIPT_ATTACK_MESSAGE_AND_ANIMATION:
++    case BATTLE_SUBSCRIPT_SHOW_PREPARED_MESSAGE:
++    case BATTLE_SUBSCRIPT_PUSH_ATTACKER_AND_DEFENDER:
++    case BATTLE_SUBSCRIPT_POP_ATTACKER_AND_DEFENDER:
++    case BATTLE_SUBSCRIPT_HIT_X_TIMES:
++    case BATTLE_SUBSCRIPT_MOVE_FOLLOWUP_MESSAGE:
++        return TRUE;
++    }
++    return FALSE;
++}
++
++static u8 Nuzlocke_CauseFromScript(u16 origin, BOOL *usesFoe) {
++    *usesFoe = FALSE;
++    switch (origin) {
++    case BATTLE_SUBSCRIPT_POISON_DAMAGE:
++        return NUZLOCKE_CAUSE_POISON;
++    case BATTLE_SUBSCRIPT_BURN_DAMAGE:
++        return NUZLOCKE_CAUSE_BURN;
++    case BATTLE_SUBSCRIPT_WEATHER_CONTINUES:
++        return NUZLOCKE_CAUSE_WEATHER; // refined below
++    case BATTLE_SUBSCRIPT_HURT_SELF_IN_CONFUSION:
++        return NUZLOCKE_CAUSE_CONFUSION;
++    case BATTLE_SUBSCRIPT_DISOBEY_HIT_SELF:
++        return NUZLOCKE_CAUSE_DISOBEY;
++    case BATTLE_SUBSCRIPT_RECOIL_1_4:
++    case BATTLE_SUBSCRIPT_RECOIL_1_3:
++    case BATTLE_SUBSCRIPT_RECOIL_1_2:
++    case BATTLE_SUBSCRIPT_RECOIL_1_3_CHANCE_TO_BURN:
++    case BATTLE_SUBSCRIPT_RECOIL_1_3_CHANCE_TO_PARALYZE:
++    case BATTLE_SUBSCRIPT_STRUGGLE:
++        return NUZLOCKE_CAUSE_RECOIL;
++    case BATTLE_SUBSCRIPT_CRASH_ON_MISS:
++        return NUZLOCKE_CAUSE_CRASH;
++    case BATTLE_SUBSCRIPT_CURSE_DAMAGE:
++    case BATTLE_SUBSCRIPT_CURSE_GHOST:
++        return NUZLOCKE_CAUSE_CURSE;
++    case BATTLE_SUBSCRIPT_NIGHTMARE_EFFECT:
++        return NUZLOCKE_CAUSE_NIGHTMARE;
++    case BATTLE_SUBSCRIPT_BIND_EFFECT:
++        return NUZLOCKE_CAUSE_BIND;
++    case BATTLE_SUBSCRIPT_LEECH_SEED_EFFECT:
++        return NUZLOCKE_CAUSE_LEECH_SEED;
++    case BATTLE_SUBSCRIPT_CONTINUE_PERISH_SONG:
++        return NUZLOCKE_CAUSE_PERISH_SONG;
++    case BATTLE_SUBSCRIPT_HAZARDS_CHECK:
++        return NUZLOCKE_CAUSE_HAZARDS;
++    case BATTLE_SUBSCRIPT_ROUGH_SKIN:
++        *usesFoe = TRUE;
++        return NUZLOCKE_CAUSE_ROUGH_SKIN;
++    case BATTLE_SUBSCRIPT_AFTERMATH:
++        *usesFoe = TRUE;
++        return NUZLOCKE_CAUSE_AFTERMATH;
++    case BATTLE_SUBSCRIPT_BAD_DREAMS:
++        return NUZLOCKE_CAUSE_BAD_DREAMS;
++    case BATTLE_SUBSCRIPT_LOSE_HP_FROM_ITEM:
++    case BATTLE_SUBSCRIPT_LOSE_HP_FROM_ITEM_WITH_MESSAGE:
++        return NUZLOCKE_CAUSE_ITEM;
++    case BATTLE_SUBSCRIPT_HELD_ITEM_RECOIL_WHEN_HIT:
++        *usesFoe = TRUE;
++        return NUZLOCKE_CAUSE_FOE_ITEM;
++    case BATTLE_SUBSCRIPT_DESTINY_BOND:
++    case BATTLE_SUBSCRIPT_FAINT_CHECK_DESTINY_BOND:
++        *usesFoe = TRUE;
++        return NUZLOCKE_CAUSE_DESTINY_BOND;
++    case BATTLE_SUBSCRIPT_FUTURE_SIGHT_DAMAGE:
++        return NUZLOCKE_CAUSE_FUTURE_SIGHT;
++    case BATTLE_SUBSCRIPT_MEMENTO:
++    case BATTLE_SUBSCRIPT_HEALING_WISH:
++    case BATTLE_SUBSCRIPT_LUNAR_DANCE:
++    case BATTLE_SUBSCRIPT_PURSUIT:
++    case BATTLE_SUBSCRIPT_ATTACK_THEN_SWITCH_OUT:
++    case ORIGIN_MOVE:
++        return NUZLOCKE_CAUSE_MOVE;
++    }
++    return NUZLOCKE_CAUSE_UNKNOWN;
++}
++
++static NuzlockeFaint *Nuzlocke_FaintSlot(u32 personality) {
++    int i;
++    for (i = 0; i < (int)NELEMS(sFaints); i++) {
++        if (sFaints[i].used && sFaints[i].personality == personality) {
++            return &sFaints[i];
++        }
++    }
++    for (i = 0; i < (int)NELEMS(sFaints); i++) {
++        if (!sFaints[i].used) {
++            return &sFaints[i];
++        }
++    }
++    return NULL;
++}
++
++static void Nuzlocke_SetFoe(BattleSystem *battleSystem, BattleContext *ctx, NuzlockeFaint *faint, int foe) {
++    if (foe < 0 || foe >= 4) {
++        return;
++    }
++    faint->foeSpecies = ctx->battleMons[foe].species;
++    if (battleSystem->battleType & BATTLE_TYPE_TRAINER) {
++        faint->trainerId = battleSystem->trainerId[foe];
++    }
++}
++
++// Called right after a battler's HP changes. Records how a player
++// Pokemon was knocked out.
++void Nuzlocke_OnBattlerHPChanged(BattleSystem *battleSystem, BattleContext *ctx, int battlerId, int oldHp) {
++    NuzlockeFaint *faint;
++    BOOL usesFoe;
++    u8 cause = NUZLOCKE_CAUSE_UNKNOWN;
++    int depth;
++    int attacker = ctx->battlerIdAttacker;
++
++    if (oldHp <= 0 || ctx->battleMons[battlerId].hp != 0) {
++        return;
++    }
++    if (BattleSystem_GetFieldSide(battleSystem, battlerId) != 0) {
++        return; // only the player's side
++    }
++
++    // The innermost script that says where the damage came from. Scripts
++    // that don't (messages, animations...) are skipped; if none does, the
++    // damage came from the move being used.
++    cause = NUZLOCKE_CAUSE_MOVE;
++    usesFoe = FALSE;
++    for (depth = ctx->unk_B8; depth >= 0; depth--) {
++        if (depth < ORIGIN_DEPTH && !Nuzlocke_IsNeutralScript(sOrigin[depth])) {
++            BOOL foe;
++            u8 c = Nuzlocke_CauseFromScript(sOrigin[depth], &foe);
++            if (c != NUZLOCKE_CAUSE_UNKNOWN) {
++                cause = c;
++                usesFoe = foe;
++                break;
++            }
++        }
++    }
++
++    faint = Nuzlocke_FaintSlot(ctx->battleMons[battlerId].personality);
++    if (faint == NULL) {
++        return;
++    }
++    MI_CpuClear8(faint, sizeof(NuzlockeFaint));
++    faint->used = TRUE;
++    faint->personality = ctx->battleMons[battlerId].personality;
++    faint->move = ctx->moveNoCur;
++
++    switch (cause) {
++    case NUZLOCKE_CAUSE_MOVE:
++        if (attacker == battlerId) {
++            cause = NUZLOCKE_CAUSE_SELF_MOVE; // Explosion, Selfdestruct, Memento...
++        } else if (BattleSystem_GetFieldSide(battleSystem, attacker) == 0) {
++            cause = NUZLOCKE_CAUSE_ALLY_MOVE;
++        } else {
++            Nuzlocke_SetFoe(battleSystem, ctx, faint, attacker);
++        }
++        break;
++    case NUZLOCKE_CAUSE_WEATHER:
++        if (ctx->fieldCondition & FIELD_CONDITION_SANDSTORM_ALL) {
++            cause = NUZLOCKE_CAUSE_SANDSTORM;
++        } else if (ctx->fieldCondition & FIELD_CONDITION_HAIL_ALL) {
++            cause = NUZLOCKE_CAUSE_HAIL;
++        } else {
++            cause = NUZLOCKE_CAUSE_OWN_ABILITY; // Dry Skin / Solar Power
++        }
++        break;
++    case NUZLOCKE_CAUSE_RECOIL:
++    case NUZLOCKE_CAUSE_CRASH:
++        break;
++    default:
++        if (usesFoe) {
++            // The fainted Pokemon was the one using the move; its target
++            // owned the ability / item / Destiny Bond.
++            Nuzlocke_SetFoe(battleSystem, ctx, faint, attacker == battlerId ? ctx->battlerIdTarget : attacker);
++        }
++        break;
++    }
++    faint->cause = cause;
++}
++
++BOOL Nuzlocke_GetFaintCause(u32 personality, u8 *cause, u16 *foeSpecies, u16 *trainerId, u16 *move) {
++    int i;
++    for (i = 0; i < (int)NELEMS(sFaints); i++) {
++        if (sFaints[i].used && sFaints[i].personality == personality) {
++            *cause = sFaints[i].cause;
++            *foeSpecies = sFaints[i].foeSpecies;
++            *trainerId = sFaints[i].trainerId;
++            *move = sFaints[i].move;
++            return TRUE;
++        }
++    }
++    return FALSE;
++}
 diff --git a/src/nuzlocke_screen.c b/src/nuzlocke_screen.c
 new file mode 100644
-index 0000000..70bcb69
+index 0000000..d63714a
 --- /dev/null
 +++ b/src/nuzlocke_screen.c
-@@ -0,0 +1,643 @@
+@@ -0,0 +1,1071 @@
 +// ------------------------------------------------------------------
 +// Nuzlocke screens: run over, victory (Champion / Red) and the
 +// records viewer (SELECT in the overworld).
@@ -1482,13 +2644,19 @@ index 0000000..70bcb69
 +#include "party.h"
 +#include "player_data.h"
 +#include "pm_string.h"
++#include "pokemon.h"
 +#include "pokemon_icon_idx.h"
 +#include "save.h"
 +#include "save_arrays.h"
 +#include "screen_fade.h"
 +#include "sound.h"
 +#include "system.h"
++#include "constants/battle.h"
++#include "constants/species.h"
++#include "constants/trainer_class.h"
++#include "save_misc_data.h"
 +#include "text.h"
++#include "trainer_data.h"
 +#include "unk_0200B150.h"
 +#include "unk_02005D10.h"
 +#include "unk_02055244.h"
@@ -1516,6 +2684,7 @@ index 0000000..70bcb69
 +    NZC_DARK,
 +    NZC_GREEN,
 +    NZC_GREEN_TEXT,
++    NZC_MEMORIAL,
 +};
 +
 +static const u16 sUiPalette[16] = {
@@ -1532,6 +2701,7 @@ index 0000000..70bcb69
 +    [NZC_DARK] = RGB(1, 1, 3),
 +    [NZC_GREEN] = RGB(3, 14, 6),
 +    [NZC_GREEN_TEXT] = RGB(12, 30, 12),
++    [NZC_MEMORIAL] = RGB(9, 7, 13),
 +};
 +
 +#define NZ_BACKDROP RGB(2, 3, 7)
@@ -1582,6 +2752,22 @@ index 0000000..70bcb69
 +#define CARD_PLATE_H  4
 +#define CARD_ROW_STEP 8
 +
++// List layout (memorial and saving panel): 4 rows of icon + 3 text lines
++#define LIST_Y        3
++#define LIST_ROWS     4
++#define LIST_ROW_H    5
++#define LIST_TEXT_X   5
++#define LIST_TEXT_W   26
++#define LIST_LINE_1   0
++#define LIST_LINE_2   12
++#define LIST_LINE_3   24
++
++enum {
++    NZ_LAYOUT_NONE,
++    NZ_LAYOUT_CARDS,
++    NZ_LAYOUT_LIST,
++};
++
 +enum {
 +    WIN_BANNER,
 +    WIN_INFO,
@@ -1594,6 +2780,7 @@ index 0000000..70bcb69
 +    NZ_MODE_RUN_OVER, // never closes
 +    NZ_MODE_VICTORY,  // one page, A closes
 +    NZ_MODE_RECORDS,  // A = next page, B = close
++    NZ_MODE_SAVING,   // saves while shown, then closes by itself
 +};
 +
 +enum {
@@ -1602,9 +2789,11 @@ index 0000000..70bcb69
 +    NZ_PAGE_CHAMPION,
 +    NZ_PAGE_RED,
 +    NZ_PAGE_LOG,
++    NZ_PAGE_MEMORIAL,
++    NZ_PAGE_SAVING,
 +};
 +
-+#define NZ_MAX_PAGES (3 + (NUZLOCKE_LOG_MAX + PARTY_SIZE - 1) / PARTY_SIZE)
++#define NZ_MAX_PAGES (3 + (NUZLOCKE_LOG_MAX + PARTY_SIZE - 1) / PARTY_SIZE + (NUZLOCKE_DEATHS_MAX + LIST_ROWS - 1) / LIST_ROWS)
 +
 +typedef struct NuzlockeScreen {
 +    u8 mode;
@@ -1613,6 +2802,8 @@ index 0000000..70bcb69
 +    u8 pages[NZ_MAX_PAGES];
 +    u8 pageArg[NZ_MAX_PAGES];
 +    u8 displayReady;
++    u8 layout;
++    u16 timer;
 +    BgConfig *bgConfig;
 +    MsgData *msgData;
 +    MessageFormat *msgFmt;
@@ -1640,9 +2831,14 @@ index 0000000..70bcb69
 +    NuzlockeSave *nz = Save_Nuzlocke_Get(saveData);
 +    int logCount = Nuzlocke_GetLogCount(saveData);
 +    int i;
++    int deathCount = Nuzlocke_GetDeathRecordCount(saveData);
 +    for (i = 0; i * PARTY_SIZE < logCount; i++) {
 +        scr->pageArg[scr->numPages] = i;
 +        scr->pages[scr->numPages++] = NZ_PAGE_LOG;
++    }
++    for (i = 0; i * LIST_ROWS < deathCount; i++) {
++        scr->pageArg[scr->numPages] = i;
++        scr->pages[scr->numPages++] = NZ_PAGE_MEMORIAL;
 +    }
 +    if (nz->records[NUZLOCKE_RECORD_CHAMPION].valid) {
 +        scr->pages[scr->numPages++] = NZ_PAGE_CHAMPION;
@@ -1655,8 +2851,6 @@ index 0000000..70bcb69
 +// ---------------------------------------------------------------- drawing
 +
 +static void NuzScreen_InitDisplay(NuzlockeScreen *scr) {
-+    int i;
-+
 +    scr->savedBanks.bg = GX_GetBankForBG();
 +    scr->savedBanks.bgextpltt = GX_GetBankForBGExtPltt();
 +    scr->savedBanks.subbg = GX_GetBankForSubBG();
@@ -1697,30 +2891,61 @@ index 0000000..70bcb69
 +    scr->msgData = NewMsgDataFromNarc(MSGDATA_LOAD_LAZY, NARC_msgdata_msg, msg_0203, HEAP_ID_FIELD2);
 +    scr->msgFmt = MessageFormat_New(HEAP_ID_FIELD2);
 +
-+    u16 baseTile = 1;
-+    AddWindowParameterized(scr->bgConfig, &scr->windows[WIN_BANNER], NZ_LAYER, 0, BANNER_Y, 32, BANNER_H, NZ_PLTT_UI, baseTile);
-+    baseTile += 32 * BANNER_H;
-+    AddWindowParameterized(scr->bgConfig, &scr->windows[WIN_INFO], NZ_LAYER, 0, INFO_Y, 32, INFO_H, NZ_PLTT_UI, baseTile);
-+    baseTile += 32 * INFO_H;
-+    for (i = 0; i < PARTY_SIZE; i++) {
-+        u8 cardX = 1 + (i % 3) * CARD_W;
-+        u8 cardY = CARD_ICON_Y + (i / 3) * CARD_ROW_STEP;
-+        AddWindowParameterized(scr->bgConfig, &scr->windows[WIN_ICON_FIRST + i], NZ_LAYER, cardX + 3, cardY, 4, 4, NZ_PLTT_ICON_BASE, baseTile);
-+        baseTile += 16;
-+        AddWindowParameterized(scr->bgConfig, &scr->windows[WIN_PLATE_FIRST + i], NZ_LAYER, cardX, cardY + 4, CARD_W, CARD_PLATE_H, NZ_PLTT_UI, baseTile);
-+        baseTile += CARD_W * CARD_PLATE_H;
-+    }
++    scr->layout = NZ_LAYOUT_NONE;
 +    scr->displayReady = TRUE;
 +}
 +
-+static void NuzScreen_FreeDisplay(NuzlockeScreen *scr) {
++static void NuzScreen_RemoveWindows(NuzlockeScreen *scr) {
 +    int i;
++    for (i = 0; i < WIN_COUNT; i++) {
++        if (scr->windows[i].pixelBuffer != NULL) {
++            RemoveWindow(&scr->windows[i]);
++        }
++    }
++}
++
++// The card layout (team / log) and the list layout (memorial / saving)
++// don't fit in VRAM together, so the windows are rebuilt on a change.
++static void NuzScreen_SetLayout(NuzlockeScreen *scr, int layout) {
++    u16 baseTile = 1;
++    int i;
++
++    if (scr->layout == layout) {
++        return;
++    }
++    NuzScreen_RemoveWindows(scr);
++    BgClearTilemapBufferAndCommit(scr->bgConfig, NZ_LAYER);
++    scr->layout = layout;
++
++    AddWindowParameterized(scr->bgConfig, &scr->windows[WIN_BANNER], NZ_LAYER, 0, BANNER_Y, 32, BANNER_H, NZ_PLTT_UI, baseTile);
++    baseTile += 32 * BANNER_H;
++    if (layout == NZ_LAYOUT_CARDS) {
++        AddWindowParameterized(scr->bgConfig, &scr->windows[WIN_INFO], NZ_LAYER, 0, INFO_Y, 32, INFO_H, NZ_PLTT_UI, baseTile);
++        baseTile += 32 * INFO_H;
++        for (i = 0; i < PARTY_SIZE; i++) {
++            u8 cardX = 1 + (i % 3) * CARD_W;
++            u8 cardY = CARD_ICON_Y + (i / 3) * CARD_ROW_STEP;
++            AddWindowParameterized(scr->bgConfig, &scr->windows[WIN_ICON_FIRST + i], NZ_LAYER, cardX + 3, cardY, 4, 4, NZ_PLTT_ICON_BASE, baseTile);
++            baseTile += 16;
++            AddWindowParameterized(scr->bgConfig, &scr->windows[WIN_PLATE_FIRST + i], NZ_LAYER, cardX, cardY + 4, CARD_W, CARD_PLATE_H, NZ_PLTT_UI, baseTile);
++            baseTile += CARD_W * CARD_PLATE_H;
++        }
++    } else {
++        for (i = 0; i < LIST_ROWS; i++) {
++            u8 rowY = LIST_Y + i * LIST_ROW_H;
++            AddWindowParameterized(scr->bgConfig, &scr->windows[WIN_ICON_FIRST + i], NZ_LAYER, 1, rowY, 4, 4, NZ_PLTT_ICON_BASE, baseTile);
++            baseTile += 16;
++            AddWindowParameterized(scr->bgConfig, &scr->windows[WIN_PLATE_FIRST + i], NZ_LAYER, LIST_TEXT_X, rowY, LIST_TEXT_W, LIST_ROW_H, NZ_PLTT_UI, baseTile);
++            baseTile += LIST_TEXT_W * LIST_ROW_H;
++        }
++    }
++}
++
++static void NuzScreen_FreeDisplay(NuzlockeScreen *scr) {
 +    if (!scr->displayReady) {
 +        return;
 +    }
-+    for (i = 0; i < WIN_COUNT; i++) {
-+        RemoveWindow(&scr->windows[i]);
-+    }
++    NuzScreen_RemoveWindows(scr);
 +    // Wipe the layer so nothing is left on screen when the overworld returns.
 +    BgClearTilemapBufferAndCommit(scr->bgConfig, NZ_LAYER);
 +    ToggleBgLayer(NZ_LAYER, GF_PLANE_TOGGLE_OFF);
@@ -1792,9 +3017,13 @@ index 0000000..70bcb69
 +    int i;
 +    IGT *igt = Save_PlayerData_GetIGTAddr(saveData);
 +
++    int failed = 0;
 +    for (i = 0; i < logCount; i++) {
-+        if (Nuzlocke_GetLogEntry(saveData, i)->status == NUZLOCKE_LOG_CAUGHT) {
++        u8 status = Nuzlocke_GetLogEntry(saveData, i)->status;
++        if (NUZLOCKE_LOG_IS_SUCCESS(status)) {
 +            caught++;
++        } else {
++            failed++;
 +        }
 +    }
 +
@@ -1803,7 +3032,7 @@ index 0000000..70bcb69
 +    Window *info = &scr->windows[WIN_INFO];
 +    FillWindowPixelBuffer(info, NZC_CLEAR);
 +    BufferIntegerAsString(scr->msgFmt, 0, caught, 3, PRINTING_MODE_LEFT_ALIGN, TRUE);
-+    BufferIntegerAsString(scr->msgFmt, 1, logCount - caught, 3, PRINTING_MODE_LEFT_ALIGN, TRUE);
++    BufferIntegerAsString(scr->msgFmt, 1, failed, 3, PRINTING_MODE_LEFT_ALIGN, TRUE);
 +    BufferIntegerAsString(scr->msgFmt, 2, Nuzlocke_GetDeaths(saveData), 3, PRINTING_MODE_LEFT_ALIGN, TRUE);
 +    NuzScreen_Print(scr, info, msg_0203_00021, 1, NZC_GOLD_TEXT, NZC_CLEAR, TRUE, 0);
 +    BufferPlayersName(scr->msgFmt, 0, Save_PlayerData_GetProfile(saveData));
@@ -1818,7 +3047,9 @@ index 0000000..70bcb69
 +        Window *plate = &scr->windows[WIN_PLATE_FIRST + i];
 +        if (first + i < logCount) {
 +            const NuzlockeLogEntry *entry = Nuzlocke_GetLogEntry(saveData, first + i);
-+            BOOL ok = entry->status == NUZLOCKE_LOG_CAUGHT;
++            BOOL ok = NUZLOCKE_LOG_IS_SUCCESS(entry->status);
++            BOOL bonus = NUZLOCKE_LOG_IS_BONUS(entry->status);
++            u8 textColor = bonus ? NZC_GOLD_TEXT : (ok ? NZC_GREEN_TEXT : NZC_RED_TEXT);
 +            NuzlockeTeamMon mon;
 +
 +            MI_CpuClear8(&mon, sizeof(mon));
@@ -1826,11 +3057,25 @@ index 0000000..70bcb69
 +            NuzScreen_DrawIcon(scr, icon, &mon);
 +
 +            FillWindowPixelBuffer(plate, NZC_PANEL);
-+            FillWindowPixelRect(plate, ok ? NZC_GREEN : NZC_RED, 0, 0, CARD_W * 8, 2);
++            FillWindowPixelRect(plate, bonus ? NZC_GOLD : (ok ? NZC_GREEN : NZC_RED), 0, 0, CARD_W * 8, 2);
 +            BufferSpeciesName(scr->msgFmt, 0, entry->species);
-+            NuzScreen_Print(scr, plate, ok ? msg_0203_00024 : msg_0203_00025, 2, ok ? NZC_GREEN_TEXT : NZC_RED_TEXT, NZC_PANEL, TRUE, 0);
-+            BufferLocationName(scr->msgFmt, 0, entry->mapsec);
-+            NuzScreen_Print(scr, plate, msg_0203_00023, 16, NZC_GREY, NZC_PANEL, TRUE, 0);
++            if (bonus) {
++                // Bonus entries: species, then what kind of bonus it was.
++                static const u16 sBonusMsgs[] = {
++                    [NUZLOCKE_LOG_SHINY - NUZLOCKE_LOG_SHINY] = msg_0203_00072,
++                    [NUZLOCKE_LOG_GIFT - NUZLOCKE_LOG_SHINY] = msg_0203_00071,
++                    [NUZLOCKE_LOG_STATIC - NUZLOCKE_LOG_SHINY] = msg_0203_00073,
++                    [NUZLOCKE_LOG_STATIC_FAILED - NUZLOCKE_LOG_SHINY] = msg_0203_00074,
++                    [NUZLOCKE_LOG_EGG - NUZLOCKE_LOG_SHINY] = msg_0203_00075,
++                };
++                int kind = entry->status - NUZLOCKE_LOG_SHINY;
++                NuzScreen_Print(scr, plate, msg_0203_00076, 2, NZC_WHITE, NZC_PANEL, TRUE, 0);
++                NuzScreen_Print(scr, plate, kind < (int)NELEMS(sBonusMsgs) ? sBonusMsgs[kind] : msg_0203_00071, 16, ok ? NZC_GOLD_TEXT : NZC_RED_TEXT, NZC_PANEL, TRUE, 0);
++            } else {
++                NuzScreen_Print(scr, plate, ok ? msg_0203_00024 : msg_0203_00025, 2, textColor, NZC_PANEL, TRUE, 0);
++                BufferLocationName(scr->msgFmt, 0, entry->mapsec);
++                NuzScreen_Print(scr, plate, msg_0203_00023, 16, NZC_GREY, NZC_PANEL, TRUE, 0);
++            }
 +            // Thin dividers so long place names don't run into the next card.
 +            FillWindowPixelRect(plate, NZC_DARK, 0, 2, 1, CARD_PLATE_H * 8 - 2);
 +            FillWindowPixelRect(plate, NZC_DARK, CARD_W * 8 - 1, 2, 1, CARD_PLATE_H * 8 - 2);
@@ -1844,6 +3089,231 @@ index 0000000..70bcb69
 +    }
 +}
 +
++// ---------------------------------------------------------------- list rows
++
++static Window *NuzScreen_BeginRow(NuzlockeScreen *scr, int row, u16 species, u8 form, u8 stripeColor) {
++    Window *icon = &scr->windows[WIN_ICON_FIRST + row];
++    Window *text = &scr->windows[WIN_PLATE_FIRST + row];
++    if (species != SPECIES_NONE) {
++        NuzlockeTeamMon mon;
++        MI_CpuClear8(&mon, sizeof(mon));
++        mon.species = species;
++        mon.form = form;
++        NuzScreen_DrawIcon(scr, icon, &mon);
++    } else {
++        FillWindowPixelBuffer(icon, 0);
++        icon->paletteNum = NZ_PLTT_UI;
++    }
++    FillWindowPixelBuffer(text, NZC_PANEL);
++    FillWindowPixelRect(text, stripeColor, 0, 0, 3, LIST_ROW_H * 8 - 2);
++    FillWindowPixelRect(text, NZC_CLEAR, 0, LIST_ROW_H * 8 - 2, LIST_TEXT_W * 8, 2);
++    return text;
++}
++
++static void NuzScreen_EndRow(NuzlockeScreen *scr, int row) {
++    CopyWindowToVram(&scr->windows[WIN_ICON_FIRST + row]);
++    CopyWindowToVram(&scr->windows[WIN_PLATE_FIRST + row]);
++}
++
++static void NuzScreen_ClearRow(NuzlockeScreen *scr, int row) {
++    Window *icon = &scr->windows[WIN_ICON_FIRST + row];
++    FillWindowPixelBuffer(icon, 0);
++    icon->paletteNum = NZ_PLTT_UI;
++    FillWindowPixelBuffer(&scr->windows[WIN_PLATE_FIRST + row], NZC_CLEAR);
++    NuzScreen_EndRow(scr, row);
++}
++
++// msg for "NICK (SPECIES)  Lv.N", or "NICK  Lv.N" when it was never nicknamed.
++static s32 NuzScreen_NameLineMsg(const NuzlockeDeath *info) {
++    u16 nick[POKEMON_NAME_LENGTH + 1];
++    u16 speciesName[POKEMON_NAME_LENGTH + 1];
++    int i;
++    Nuzlocke_DeathRecordGetName(info, nick);
++    GetSpeciesNameIntoArray(info->species, HEAP_ID_FIELD2, speciesName);
++    for (i = 0; i < POKEMON_NAME_LENGTH + 1; i++) {
++        if (nick[i] != speciesName[i]) {
++            return msg_0203_00011;
++        }
++        if (nick[i] == EOS) {
++            break;
++        }
++    }
++    return msg_0203_00080;
++}
++
++static void NuzScreen_BufferNick(NuzlockeScreen *scr, int idx, const NuzlockeDeath *info) {
++    u16 name[POKEMON_NAME_LENGTH + 1];
++    String *str = String_New(POKEMON_NAME_LENGTH + 1, HEAP_ID_FIELD2);
++    Nuzlocke_DeathRecordGetName(info, name);
++    CopyU16ArrayToString(str, name);
++    BufferString(scr->msgFmt, idx, str, 0, 1, 2);
++    String_Delete(str);
++}
++
++static void NuzScreen_BufferTrainerName(NuzlockeScreen *scr, SaveData *saveData, int idx, u16 trainerId) {
++    String *str = String_New(PLAYER_NAME_LENGTH + 1, HEAP_ID_FIELD2);
++    if (TrainerData_GetAttr(trainerId, TRATTR_CLASS) == TRAINERCLASS_RIVAL) {
++        CopyU16ArrayToString(str, Save_Misc_RivalName_Const_Get(Save_Misc_Const_Get(saveData)));
++    } else {
++        MsgData *msgData = NewMsgDataFromNarc(MSGDATA_LOAD_LAZY, NARC_msgdata_msg, msg_0729, HEAP_ID_FIELD2);
++        ReadMsgDataIntoString(msgData, trainerId, str);
++        DestroyMsgData(msgData);
++    }
++    BufferString(scr->msgFmt, idx, str, 0, 1, 2);
++    String_Delete(str);
++}
++
++// Fills the message buffers for a death cause and returns its message.
++static s32 NuzScreen_BufferCause(NuzlockeScreen *scr, SaveData *saveData, const NuzlockeDeath *info) {
++    static const u16 sCauseMsgs[NUZLOCKE_CAUSE_MAX] = {
++        [NUZLOCKE_CAUSE_UNKNOWN] = msg_0203_00058,
++        [NUZLOCKE_CAUSE_MOVE] = msg_0203_00033,
++        [NUZLOCKE_CAUSE_SELF_MOVE] = msg_0203_00034,
++        [NUZLOCKE_CAUSE_ALLY_MOVE] = msg_0203_00035,
++        [NUZLOCKE_CAUSE_POISON] = msg_0203_00036,
++        [NUZLOCKE_CAUSE_BURN] = msg_0203_00037,
++        [NUZLOCKE_CAUSE_WEATHER] = msg_0203_00058,
++        [NUZLOCKE_CAUSE_SANDSTORM] = msg_0203_00038,
++        [NUZLOCKE_CAUSE_HAIL] = msg_0203_00039,
++        [NUZLOCKE_CAUSE_OWN_ABILITY] = msg_0203_00040,
++        [NUZLOCKE_CAUSE_RECOIL] = msg_0203_00041,
++        [NUZLOCKE_CAUSE_CRASH] = msg_0203_00042,
++        [NUZLOCKE_CAUSE_CONFUSION] = msg_0203_00043,
++        [NUZLOCKE_CAUSE_DISOBEY] = msg_0203_00044,
++        [NUZLOCKE_CAUSE_CURSE] = msg_0203_00045,
++        [NUZLOCKE_CAUSE_NIGHTMARE] = msg_0203_00046,
++        [NUZLOCKE_CAUSE_BIND] = msg_0203_00047,
++        [NUZLOCKE_CAUSE_LEECH_SEED] = msg_0203_00048,
++        [NUZLOCKE_CAUSE_PERISH_SONG] = msg_0203_00049,
++        [NUZLOCKE_CAUSE_HAZARDS] = msg_0203_00050,
++        [NUZLOCKE_CAUSE_ROUGH_SKIN] = msg_0203_00051,
++        [NUZLOCKE_CAUSE_AFTERMATH] = msg_0203_00052,
++        [NUZLOCKE_CAUSE_BAD_DREAMS] = msg_0203_00053,
++        [NUZLOCKE_CAUSE_ITEM] = msg_0203_00054,
++        [NUZLOCKE_CAUSE_FOE_ITEM] = msg_0203_00055,
++        [NUZLOCKE_CAUSE_DESTINY_BOND] = msg_0203_00056,
++        [NUZLOCKE_CAUSE_FUTURE_SIGHT] = msg_0203_00057,
++    };
++    u8 cause = info->cause < NUZLOCKE_CAUSE_MAX ? info->cause : NUZLOCKE_CAUSE_UNKNOWN;
++
++    BufferSpeciesName(scr->msgFmt, 1, info->foeSpecies);
++    BufferMoveName(scr->msgFmt, 2, info->move);
++    switch (cause) {
++    case NUZLOCKE_CAUSE_MOVE:
++        if (info->foeSpecies == SPECIES_NONE) {
++            return msg_0203_00058;
++        }
++        if (info->trainerId != 0) {
++            NuzScreen_BufferTrainerName(scr, saveData, 0, info->trainerId);
++            return msg_0203_00032;
++        }
++        return msg_0203_00033;
++    case NUZLOCKE_CAUSE_ROUGH_SKIN:
++    case NUZLOCKE_CAUSE_AFTERMATH:
++    case NUZLOCKE_CAUSE_FOE_ITEM:
++    case NUZLOCKE_CAUSE_DESTINY_BOND:
++        if (info->foeSpecies == SPECIES_NONE) {
++            return msg_0203_00058;
++        }
++        break;
++    case NUZLOCKE_CAUSE_SELF_MOVE:
++    case NUZLOCKE_CAUSE_ALLY_MOVE:
++    case NUZLOCKE_CAUSE_RECOIL:
++    case NUZLOCKE_CAUSE_CRASH:
++        if (info->move == 0) {
++            return msg_0203_00058;
++        }
++        break;
++    }
++    return sCauseMsgs[cause];
++}
++
++// Name, cause and place of a fallen Pokemon.
++static void NuzScreen_DrawDeathRow(NuzlockeScreen *scr, SaveData *saveData, int row, const NuzlockeDeath *info) {
++    Window *text = NuzScreen_BeginRow(scr, row, info->species, info->form, NZC_RED);
++    s32 causeMsg;
++
++    NuzScreen_BufferNick(scr, 0, info);
++    BufferSpeciesName(scr->msgFmt, 1, info->species);
++    BufferIntegerAsString(scr->msgFmt, 2, info->level, 3, PRINTING_MODE_LEFT_ALIGN, TRUE);
++    NuzScreen_Print(scr, text, NuzScreen_NameLineMsg(info), LIST_LINE_1, NZC_WHITE, NZC_PANEL, FALSE, 8);
++    causeMsg = NuzScreen_BufferCause(scr, saveData, info);
++    NuzScreen_Print(scr, text, causeMsg, LIST_LINE_2, NZC_RED_TEXT, NZC_PANEL, FALSE, 8);
++    BufferLocationName(scr->msgFmt, 0, info->mapsec);
++    NuzScreen_Print(scr, text, msg_0203_00023, LIST_LINE_3, NZC_GREY, NZC_PANEL, FALSE, 8);
++    NuzScreen_EndRow(scr, row);
++}
++
++static void NuzScreen_DrawMemorialPage(NuzlockeScreen *scr, SaveData *saveData) {
++    int count = Nuzlocke_GetDeathRecordCount(saveData);
++    int first = scr->pageArg[scr->page] * LIST_ROWS;
++    int i;
++
++    NuzScreen_DrawBanner(scr, msg_0203_00031, NZC_MEMORIAL); // IN MEMORIAM
++    for (i = 0; i < LIST_ROWS; i++) {
++        if (first + i < count) {
++            NuzScreen_DrawDeathRow(scr, saveData, i, Nuzlocke_GetDeathRecord(saveData, first + i));
++        } else {
++            NuzScreen_ClearRow(scr, i);
++        }
++    }
++}
++
++static void NuzScreen_DrawSavingPage(NuzlockeScreen *scr, SaveData *saveData, BOOL saved) {
++    int count = Nuzlocke_GetEventCount();
++    int i;
++
++    NuzScreen_DrawBanner(scr, saved ? msg_0203_00060 : msg_0203_00059, saved ? NZC_GREEN : NZC_BLUE);
++    for (i = 0; i < LIST_ROWS; i++) {
++        const NuzlockeEvent *event;
++        Window *text;
++        if (i >= count) {
++            if (i == 0) {
++                text = NuzScreen_BeginRow(scr, 0, SPECIES_NONE, 0, NZC_BLUE);
++                NuzScreen_Print(scr, text, msg_0203_00067, LIST_LINE_2, NZC_WHITE, NZC_PANEL, FALSE, 8);
++                NuzScreen_EndRow(scr, 0);
++            } else {
++                NuzScreen_ClearRow(scr, i);
++            }
++            continue;
++        }
++        event = Nuzlocke_GetEvent(i);
++        switch (event->kind) {
++        case NUZLOCKE_EVENT_CAUGHT:
++            text = NuzScreen_BeginRow(scr, i, event->info.species, event->info.form, NZC_GREEN);
++            NuzScreen_BufferNick(scr, 0, &event->info);
++            BufferSpeciesName(scr->msgFmt, 1, event->info.species);
++            BufferIntegerAsString(scr->msgFmt, 2, event->info.level, 3, PRINTING_MODE_LEFT_ALIGN, TRUE);
++            NuzScreen_Print(scr, text, NuzScreen_NameLineMsg(&event->info), LIST_LINE_1, NZC_WHITE, NZC_PANEL, FALSE, 8);
++            NuzScreen_Print(scr, text, event->detail ? msg_0203_00062 : msg_0203_00061, LIST_LINE_2, NZC_GREEN_TEXT, NZC_PANEL, FALSE, 8);
++            BufferLocationName(scr->msgFmt, 0, event->info.mapsec);
++            NuzScreen_Print(scr, text, msg_0203_00023, LIST_LINE_3, NZC_GREY, NZC_PANEL, FALSE, 8);
++            NuzScreen_EndRow(scr, i);
++            break;
++        case NUZLOCKE_EVENT_FAILED:
++            text = NuzScreen_BeginRow(scr, i, event->info.species, 0, NZC_RED);
++            BufferSpeciesName(scr->msgFmt, 0, event->info.species);
++            BufferIntegerAsString(scr->msgFmt, 1, event->info.level, 3, PRINTING_MODE_LEFT_ALIGN, TRUE);
++            NuzScreen_Print(scr, text, msg_0203_00065, LIST_LINE_1, NZC_WHITE, NZC_PANEL, FALSE, 8);
++            NuzScreen_Print(scr, text, event->detail == BATTLE_OUTCOME_WIN ? msg_0203_00063 : (event->detail == BATTLE_OUTCOME_PLAYER_FLED ? msg_0203_00079 : msg_0203_00064), LIST_LINE_2, NZC_RED_TEXT, NZC_PANEL, FALSE, 8);
++            BufferLocationName(scr->msgFmt, 0, event->info.mapsec);
++            NuzScreen_Print(scr, text, msg_0203_00023, LIST_LINE_3, NZC_GREY, NZC_PANEL, FALSE, 8);
++            NuzScreen_EndRow(scr, i);
++            break;
++        case NUZLOCKE_EVENT_DEATH:
++            NuzScreen_DrawDeathRow(scr, saveData, i, &event->info);
++            break;
++        case NUZLOCKE_EVENT_VICTORY:
++        default:
++            text = NuzScreen_BeginRow(scr, i, SPECIES_NONE, 0, NZC_GOLD);
++            NuzScreen_Print(scr, text, event->detail == NUZLOCKE_RECORD_RED ? msg_0203_00014 : msg_0203_00013, LIST_LINE_1, NZC_GOLD_TEXT, NZC_PANEL, FALSE, 8);
++            NuzScreen_Print(scr, text, msg_0203_00066, LIST_LINE_2, NZC_WHITE, NZC_PANEL, FALSE, 8);
++            NuzScreen_EndRow(scr, i);
++            break;
++        }
++    }
++}
++
 +static void NuzScreen_DrawPage(NuzlockeScreen *scr, SaveData *saveData) {
 +    const NuzlockeRecord *rec;
 +    int pageKind = scr->pages[scr->page];
@@ -1851,10 +3321,21 @@ index 0000000..70bcb69
 +    s32 titleMsg;
 +    int i;
 +
-+    if (pageKind == NZ_PAGE_LOG) {
++    switch (pageKind) {
++    case NZ_PAGE_MEMORIAL:
++        NuzScreen_SetLayout(scr, NZ_LAYOUT_LIST);
++        NuzScreen_DrawMemorialPage(scr, saveData);
++        return;
++    case NZ_PAGE_SAVING:
++        NuzScreen_SetLayout(scr, NZ_LAYOUT_LIST);
++        NuzScreen_DrawSavingPage(scr, saveData, FALSE);
++        return;
++    case NZ_PAGE_LOG:
++        NuzScreen_SetLayout(scr, NZ_LAYOUT_CARDS);
 +        NuzScreen_DrawLogPage(scr, saveData);
 +        return;
 +    }
++    NuzScreen_SetLayout(scr, NZ_LAYOUT_CARDS);
 +
 +    switch (pageKind) {
 +    case NZ_PAGE_RUN_OVER:
@@ -2048,6 +3529,115 @@ index 0000000..70bcb69
 +    TaskManager_Call(taskManager, Task_NuzlockeScreen, scr);
 +}
 +
++// ---------------------------------------------------------------- saving panel
++
++// Shown after a battle that changed the run (catch, lost encounter, death,
++// victory) while the game saves, so the save time has something to read.
++// Runs after the battle, before the overworld is reloaded.
++#define SAVE_PANEL_MIN_FRAMES 60
++
++static BOOL Task_NuzlockeSavePanel(TaskManager *taskManager) {
++    FieldSystem *fieldSystem = TaskManager_GetFieldSystem(taskManager);
++    NuzlockeScreen *scr = TaskManager_GetEnvironment(taskManager);
++    u32 *state = TaskManager_GetStatePtr(taskManager);
++
++    switch (*state) {
++    case 0:
++        NuzScreen_InitDisplay(scr);
++        NuzScreen_DrawPage(scr, fieldSystem->saveData);
++        G2_BlendNone();
++        BeginNormalPaletteFade(FADE_MAIN_ONLY, FADE_TYPE_BRIGHTNESS_IN, FADE_TYPE_UNK_43, RGB_BLACK, 6, 1, HEAP_ID_FIELD3);
++        scr->timer = 0;
++        (*state)++;
++        break;
++    case 1:
++        scr->timer++;
++        if (IsPaletteFadeFinished() && scr->timer > 2) {
++            (*state)++;
++        }
++        break;
++    case 2:
++        // The panel is on screen: save now (this takes a moment).
++        SaveGameNormal(fieldSystem->saveData);
++        NuzScreen_DrawSavingPage(scr, fieldSystem->saveData, TRUE);
++        PlaySE(SEQ_SE_DP_SAVE);
++        (*state)++;
++        break;
++    case 3:
++        scr->timer++;
++        if (scr->timer >= SAVE_PANEL_MIN_FRAMES || (scr->timer >= 20 && (gSystem.newKeys & (PAD_BUTTON_A | PAD_BUTTON_B)))) {
++            BeginNormalPaletteFade(FADE_BOTH_SCREENS, FADE_TYPE_BRIGHTNESS_OUT, FADE_TYPE_BRIGHTNESS_OUT, RGB_BLACK, 6, 1, HEAP_ID_FIELD3);
++            (*state)++;
++        }
++        break;
++    case 4:
++        if (IsPaletteFadeFinished()) {
++            NuzScreen_FreeDisplay(scr);
++            Heap_Free(scr);
++            return TRUE;
++        }
++        break;
++    }
++    return FALSE;
++}
++
++static void Nuzlocke_CallSavePanel(TaskManager *taskManager) {
++    NuzlockeScreen *scr = NuzScreen_New(NZ_MODE_SAVING);
++    scr->pages[scr->numPages++] = NZ_PAGE_SAVING;
++    TaskManager_Call(taskManager, Task_NuzlockeSavePanel, scr);
++}
++
++typedef struct NuzlockePostBattle {
++    s8 victory;
++    u8 save;
++} NuzlockePostBattle;
++
++// The screens must finish before the overworld starts loading again
++// (CallTask_RestoreOverworld begins loading the field right away).
++static BOOL Task_NuzlockePostBattle(TaskManager *taskManager) {
++    NuzlockePostBattle *env = TaskManager_GetEnvironment(taskManager);
++    u32 *state = TaskManager_GetStatePtr(taskManager);
++
++    switch (*state) {
++    case 0:
++        (*state)++;
++        if (env->victory >= 0) {
++            Nuzlocke_CallVictoryScreen(taskManager, env->victory);
++        }
++        break;
++    case 1:
++        (*state)++;
++        if (env->save) {
++            Nuzlocke_CallSavePanel(taskManager);
++        }
++        break;
++    case 2:
++        (*state)++;
++        CallTask_RestoreOverworld(taskManager);
++        break;
++    default:
++        Heap_Free(env);
++        return TRUE;
++    }
++    return FALSE;
++}
++
++void Nuzlocke_RestoreOverworldAfterBattle(TaskManager *taskManager) {
++    FieldSystem *fieldSystem = TaskManager_GetFieldSystem(taskManager);
++    int victory = Nuzlocke_TakePendingVictory();
++    BOOL save = Nuzlocke_TakeAutosaveRequest(fieldSystem->saveData);
++    NuzlockePostBattle *env;
++
++    if (victory < 0 && !save) {
++        CallTask_RestoreOverworld(taskManager);
++        return;
++    }
++    env = Heap_Alloc(HEAP_ID_FIELD2, sizeof(NuzlockePostBattle));
++    env->victory = victory;
++    env->save = save;
++    TaskManager_Call(taskManager, Task_NuzlockePostBattle, env);
++}
++
 +// ---------------------------------------------------------------- records (SELECT)
 +
 +static BOOL Task_NuzlockeRecords(TaskManager *taskManager) {
@@ -2137,3 +3727,24 @@ index 9a757a2..ba9c422 100644
      sub_02093070(fieldSystem);
      Heap_Free(*p_work);
      *p_work = NULL;
+diff --git a/src/script_pokemon_util.c b/src/script_pokemon_util.c
+index 59d75c2..a07c15a 100644
+--- a/src/script_pokemon_util.c
++++ b/src/script_pokemon_util.c
+@@ -6,6 +6,8 @@
+ #include "constants/items.h"
+ 
+ #include "get_egg.h"
++#include "map_header.h"
++#include "nuzlocke.h"
+ #include "party.h"
+ #include "pokemon_mood.h"
+ #include "unk_0206979C.h"
+@@ -38,6 +40,7 @@ BOOL GiveMon(enum HeapID heapID, SaveData *saveData, int species, int level, int
+         if (ability != 0) {
+             SetMonData(mon, MON_DATA_ABILITY, &ability);
+         }
++        Nuzlocke_OnGiftMon(saveData, mon, ball, NUZLOCKE_LOG_GIFT); // Nuzlocke: log it, nickname it
+         result = Party_AddMon(party, mon);
+         if (result) {
+             UpdatePokedexWithReceivedSpecies(saveData, mon);
